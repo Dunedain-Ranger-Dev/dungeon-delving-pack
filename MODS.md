@@ -13,6 +13,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Ars Nouveau | 5.13.3 | Utility and automation magic |
 | GeckoLib, Curios | 4.9.3, 9.5.1+1.21.1 | Shared libraries |
 | KubeJS, Rhino, Better Advanced Tooltips | 2101.7.2-build.377, 2101.2.7-build.85, 2101.1.0-build.5 | Pack scripting |
+| JEI | 19.51.0.418 | Recipe viewer |
 
 ## Planned (not in yet)
 
