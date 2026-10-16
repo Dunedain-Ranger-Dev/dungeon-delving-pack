@@ -1,6 +1,6 @@
 # Mod list
 
-NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.gradle`), pinned to Modrinth versions.
+NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.gradle`), pinned to Modrinth versions (FTB mods: FTB's Maven).
 
 | Mod | Version | Why it's here |
 |---|---|---|
@@ -14,8 +14,12 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | GeckoLib, Curios | 4.9.3, 9.5.1+1.21.1 | Shared libraries |
 | KubeJS, Rhino, Better Advanced Tooltips | 2101.7.2-build.377, 2101.2.7-build.85, 2101.1.0-build.5 | Pack scripting |
 | JEI | 19.51.0.418 | Recipe viewer |
+| FTB Quests | 2101.1.36 | Quest book (progression; not on Modrinth, from FTB's Maven / CurseForge) |
+| FTB Library, FTB Teams, Architectury API | 2101.1.37, 2101.1.11, 13.0.8+neoforge | FTB Quests libraries |
+| Sophisticated Backpacks | 1.21.1-3.26.12.2208 | Upgradeable backpacks for storage |
+| Sophisticated Core | 1.21.1-1.5.13.2404 | Sophisticated Backpacks library |
 
 ## Planned (not in yet)
 
-Pufferfish's Skills, Better Combat, Simply Swords, L_Ender's Cataclysm, Mowzie's Mobs, FTB Quests,
+Pufferfish's Skills, Better Combat, Simply Swords, L_Ender's Cataclysm, Mowzie's Mobs,
 YUNG's Better Dungeons, Dungeons and Taverns.
