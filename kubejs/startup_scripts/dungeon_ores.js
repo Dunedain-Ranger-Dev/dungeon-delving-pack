@@ -2,9 +2,9 @@
 // scripts can set values on global.
 // Each tier's ingot gates the matching tier of magic progression (see Jira DD-40 for the tier map).
 global.dungeonIngot = {
-  common: 'dungeondelving:common_dungeon_ingot',
-  tier1: 'dungeondelving:tier_1_dungeon_ingot',
-  tier2: 'dungeondelving:tier_2_dungeon_ingot',
-  tier3: 'dungeondelving:tier_3_dungeon_ingot',
-  tier4: 'dungeondelving:tier_4_dungeon_ingot',
+  common: 'dungeondelving:barrow_iron_ingot', // Barrow Iron: found in every dungeon
+  tier1: 'dungeondelving:thraggite_ingot', // Thraggite: tier 1 dungeons
+  tier2: 'dungeondelving:wardsilver_ingot', // Wardsilver: tier 2 dungeons
+  tier3: 'dungeondelving:emberstone_ingot', // Emberstone: tier 3 dungeons
+  tier4: 'dungeondelving:thailite_ingot', // Thailite: tier 4 dungeons
 }
