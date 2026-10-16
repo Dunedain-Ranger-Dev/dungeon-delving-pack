@@ -1,0 +1,20 @@
+# Mod list
+
+NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.gradle`), pinned to Modrinth versions.
+
+| Mod | Version | Why it's here |
+|---|---|---|
+| Dungeon Delving | 0.1.0 | The dungeon loop |
+| Apotheosis | 1.21.1-8.9.0 | Affix gear, gems, bosses (dungeon-only in this pack) |
+| Placebo, Apothic Attributes, Apothic Enchanting, Apothic Spawners | 9.9.4, 2.11.0, 1.6.4, 1.4.0 | Apotheosis libraries |
+| Patchouli | 1.21.1-93-neoforge | Guide books |
+| Iron's Spells 'n Spellbooks | 1.21.1-3.16.3 | Combat magic |
+| Iron's Lib, playerAnimator | 1.21.1-2.2.0, 2.0.4+1.21.1 | Iron's Spells libraries |
+| Ars Nouveau | 5.13.3 | Utility and automation magic |
+| GeckoLib, Curios | 4.9.3, 9.5.1+1.21.1 | Shared libraries |
+| KubeJS, Rhino, Better Advanced Tooltips | 2101.7.2-build.377, 2101.2.7-build.85, 2101.1.0-build.5 | Pack scripting |
+
+## Planned (not in yet)
+
+Pufferfish's Skills, Better Combat, Simply Swords, L_Ender's Cataclysm, Mowzie's Mobs, FTB Quests,
+YUNG's Better Dungeons, Dungeons and Taverns.
