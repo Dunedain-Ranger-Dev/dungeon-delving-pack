@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "dungeondelving:chests/tier_4/objective"
+    }
+  ],
+  "table": "dungeondelving_pack:dungeon_magic/objective_tier_4"
+}

@@ -11,6 +11,7 @@ This repository holds the pack's own content, not the mods themselves:
 | `kubejs/server_scripts/` | Recipe changes, e.g. dungeon ores in magic mod recipes |
 | `kubejs/data/` | Data overrides loaded as a data pack, e.g. loot and world generation changes |
 | `config/` | Config overrides for the pack's mods |
+| `tools/` | Scripts that generate the `kubejs/data/` files, e.g. `dungeon_only_resources.py` |
 | [MODS.md](MODS.md) | The mod list, with the exact versions used |
 
 ## Testing in development

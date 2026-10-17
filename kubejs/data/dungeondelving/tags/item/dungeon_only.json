@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:arcane_essence",
+    "irons_spellbooks:blank_rune",
+    "irons_spellbooks:ruined_book",
+    "irons_spellbooks:magic_cloth",
+    "irons_spellbooks:cinder_essence",
+    "irons_spellbooks:mithril_scrap",
+    "irons_spellbooks:raw_mithril",
+    "irons_spellbooks:mithril_ore",
+    "irons_spellbooks:deepslate_mithril_ore",
+    "irons_spellbooks:rotten_spell_book"
+  ]
+}
