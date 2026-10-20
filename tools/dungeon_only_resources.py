@@ -20,6 +20,8 @@ IRONS = "irons_spellbooks"
 PACK = "dungeondelving_pack"
 TIERS = (1, 2, 3, 4)
 INK = {1: "uncommon_ink", 2: "rare_ink", 3: "epic_ink", 4: "legendary_ink"}
+# Dungeon Delving bosses (their loot tables are dungeondelving:bosses/<boss>/tier_<n>).
+BOSSES = ["barrow_king"]
 
 # Permanent-upgrade materials: only found in dungeons.
 DUNGEON_ONLY = [
@@ -92,5 +94,15 @@ for t in TIERS:
             "table": f"{PACK}:{name}",
         })
         modifiers.append(f"{PACK}:{name}")
+# Bosses pay out the same magic materials as the objective chest.
+for t in TIERS:
+    name = f"dungeon_magic/boss_tier_{t}"
+    write(DATA / f"{PACK}/loot_modifiers/{name}.json", {
+        "type": "neoforge:add_table",
+        "conditions": [{"condition": "minecraft:any_of", "terms": [
+            {"condition": "neoforge:loot_table_id", "loot_table_id": f"dungeondelving:bosses/{boss}/tier_{t}"} for boss in BOSSES]}],
+        "table": f"{PACK}:dungeon_magic/objective_tier_{t}",
+    })
+    modifiers.append(f"{PACK}:{name}")
 write(DATA / "neoforge/loot_modifiers/global_loot_modifiers.json", {"replace": False, "entries": modifiers})
 print(f"Wrote {len(DUNGEON_ONLY)} dungeon-only items and {len(modifiers)} dungeon loot modifiers")

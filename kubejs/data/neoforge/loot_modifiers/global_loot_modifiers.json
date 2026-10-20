@@ -8,6 +8,10 @@
     "dungeondelving_pack:dungeon_magic/room_tier_3",
     "dungeondelving_pack:dungeon_magic/objective_tier_3",
     "dungeondelving_pack:dungeon_magic/room_tier_4",
-    "dungeondelving_pack:dungeon_magic/objective_tier_4"
+    "dungeondelving_pack:dungeon_magic/objective_tier_4",
+    "dungeondelving_pack:dungeon_magic/boss_tier_1",
+    "dungeondelving_pack:dungeon_magic/boss_tier_2",
+    "dungeondelving_pack:dungeon_magic/boss_tier_3",
+    "dungeondelving_pack:dungeon_magic/boss_tier_4"
   ]
 }
