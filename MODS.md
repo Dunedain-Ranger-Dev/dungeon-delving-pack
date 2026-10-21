@@ -16,6 +16,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | JEI | 19.51.0.418 | Recipe viewer |
 | FTB Quests | 2101.1.36 | Quest book (progression; not on Modrinth, from FTB's Maven / CurseForge) |
 | FTB Library, FTB Teams, Architectury API | 2101.1.37, 2101.1.11, 13.0.8+neoforge | FTB Quests libraries |
+| Lootr | 1.21.1-1.11.38.127 | Loot chests are per player, so nobody misses out in multiplayer |
 | Sophisticated Backpacks | 1.21.1-3.26.12.2208 | Upgradeable backpacks for storage |
 | Sophisticated Core | 1.21.1-1.5.13.2404 | Sophisticated Backpacks library |
 
