@@ -7,6 +7,10 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "dungeondelving:bosses/barrow_king/tier_3"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeondelving:bosses/goblin_chief/tier_3"
         }
       ]
     }
