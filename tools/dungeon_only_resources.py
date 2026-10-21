@@ -21,7 +21,7 @@ PACK = "dungeondelving_pack"
 TIERS = (1, 2, 3, 4)
 INK = {1: "uncommon_ink", 2: "rare_ink", 3: "epic_ink", 4: "legendary_ink"}
 # Dungeon Delving bosses (their loot tables are dungeondelving:bosses/<boss>/tier_<n>).
-BOSSES = ["barrow_king", "goblin_chief"]
+BOSSES = ["barrow_king", "goblin_chief", "skeleton_lord"]
 
 # Permanent-upgrade materials: only found in dungeons.
 DUNGEON_ONLY = [

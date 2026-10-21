@@ -11,6 +11,10 @@
         {
           "condition": "neoforge:loot_table_id",
           "loot_table_id": "dungeondelving:bosses/goblin_chief/tier_4"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "dungeondelving:bosses/skeleton_lord/tier_4"
         }
       ]
     }
