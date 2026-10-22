@@ -5,6 +5,8 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Mod | Version | Why it's here |
 |---|---|---|
 | Dungeon Delving | 0.1.0 | The dungeon loop |
+| Deep Mines | 0.1.0 | A resettable mining dimension (our own mod, separate repo), so the overworld isn't strip-mined |
+| Custom Portal API Reforged | 1.21.1-1.2.2 | Deep Mines' portal |
 | Apotheosis | 1.21.1-8.9.0 | Affix gear, gems, bosses (dungeon-only in this pack) |
 | Placebo, Apothic Attributes, Apothic Enchanting, Apothic Spawners | 9.9.4, 2.11.0, 1.6.4, 1.4.0 | Apotheosis libraries |
 | Patchouli | 1.21.1-93-neoforge | Guide books |
