@@ -1,0 +1,14 @@
+{
+  "type": "apotheosis:augment",
+  "application_chance": 0.12,
+  "conditions": [
+    {
+      "type": "apotheosis:is_monster"
+    }
+  ],
+  "modifiers": [
+    {
+      "type": "apotheosis:random_affix_item"
+    }
+  ]
+}

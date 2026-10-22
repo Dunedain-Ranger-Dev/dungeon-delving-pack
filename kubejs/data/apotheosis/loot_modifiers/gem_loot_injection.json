@@ -1,0 +1,33 @@
+{
+  "type": "apotheosis:gems",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "dungeondelving:dungeon"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "chance": 0.25,
+      "pattern": {
+        "domain": "minecraft",
+        "path_regex": "chests.*"
+      }
+    },
+    {
+      "chance": 0.2,
+      "pattern": {
+        "path_regex": "chests.*"
+      }
+    },
+    {
+      "chance": 0.2,
+      "pattern": {
+        "domain": "twilightforest",
+        "path_regex": "structures.*"
+      }
+    }
+  ]
+}
