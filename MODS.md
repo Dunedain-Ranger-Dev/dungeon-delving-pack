@@ -23,4 +23,4 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 ## Planned (not in yet)
 
 Pufferfish's Skills, Better Combat, Simply Swords, L_Ender's Cataclysm, Mowzie's Mobs,
-YUNG's Better Dungeons, Dungeons and Taverns.
+YUNG's Better Dungeons, Dungeons and Taverns, Ice and Fire (dragons; check for a NeoForge 1.21.1 build first).
