@@ -19,7 +19,6 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Lootr | 1.21.1-1.11.38.127 | Loot chests are per player, so nobody misses out in multiplayer |
 | Sophisticated Backpacks | 1.21.1-3.26.12.2208 | Upgradeable backpacks for storage |
 | Sophisticated Core | 1.21.1-1.5.13.2404 | Sophisticated Backpacks library |
-| QuickStack & Craft -Fork- | 0.1.1 (NeoForge) | JEI's [+] fills the crafting grid from your inventory and nearby chests (shift for as many as you can make); quick-stack and dump into nearby storage. CurseForge only: https://www.curseforge.com/minecraft/mc-mods/quickstack-craft-fork (needs Architectury API, already in) |
 
 ## Planned (not in yet)
 
