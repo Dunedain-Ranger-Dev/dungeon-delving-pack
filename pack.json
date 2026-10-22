@@ -1,0 +1,29 @@
+{
+  "name": "Dungeon Delving",
+  "version": "0.1.0-alpha.1",
+  "summary": "Delve generated undead dungeons for magic loot, Apotheosis gear and smithing materials.",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.259",
+  "mod_jar": "../dwarven-vaults/build/libs/dungeondelving-0.1.0-alpha.1.jar",
+  "modrinth": {
+    "apotheosis": "veL1ccTb",
+    "placebo": "B5zbSVlT",
+    "apothic-attributes": "64fZbLnj",
+    "apothic-enchanting": "JAQJkLJ1",
+    "apothic-spawners": "pWfxcfO2",
+    "patchouli": "BIogJv2D",
+    "irons-spells-n-spellbooks": "slKLosTb",
+    "irons-lib": "lUwUKYPl",
+    "playeranimator": "HJZB6bmA",
+    "ars-nouveau": "yWDnir1o",
+    "geckolib": "Grwn5rUB",
+    "curios": "yohfFbgD",
+    "kubejs": "THIGFPwf",
+    "rhino": "cQ4POTah",
+    "better-advanced-tooltips": "uPFbnD32",
+    "jei": "ufHUqt9b",
+    "lootr": "SPOrIzX8",
+    "sophisticated-backpacks": "QkVLEgt1",
+    "sophisticated-core": "DAcZAWzl"
+  }
+}

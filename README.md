@@ -24,3 +24,15 @@ before the test client starts, as long as both repositories sit side by side (e.
 
 Scripts and configuration are licensed under [LGPL-3.0](COPYING.LESSER). Art and other assets are All Rights
 Reserved. See [LICENSE.md](LICENSE.md).
+
+## Building and installing the alpha
+
+The mod list for a release lives in `pack.json` (Modrinth version ids, plus the Dungeon Delving jar).
+
+1. Build the mod: `./gradlew build` in the mod repository (the jar lands in `build/libs/`).
+2. Build the pack: `python tools/export_mrpack.py`. It writes `dist/DungeonDelving-<version>.mrpack`.
+
+**For testers:** install [Prism Launcher](https://prismlauncher.org/) (or the Modrinth App), choose *Add Instance >
+Import*, and pick the `.mrpack`. The launcher downloads every mod from Modrinth and sets up NeoForge. Give it at least
+6 GB of memory. The CurseForge app can't import this format.
+

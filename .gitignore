@@ -3,3 +3,6 @@
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Built packs (tools/export_mrpack.py)
+dist/
