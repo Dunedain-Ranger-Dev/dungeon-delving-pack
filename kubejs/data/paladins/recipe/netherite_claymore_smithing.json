@@ -1,0 +1,16 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "addition": {
+    "item": "dungeondelving:thailite_ingot"
+  },
+  "base": {
+    "item": "paladins:diamond_claymore"
+  },
+  "result": {
+    "count": 1,
+    "id": "paladins:netherite_claymore"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

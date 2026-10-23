@@ -1,0 +1,20 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "dungeondelving:armor_plate"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " M",
+    "S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rogues:iron_dagger"
+  }
+}

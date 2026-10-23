@@ -1,0 +1,21 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "dungeondelving:chain_links"
+    },
+    "W": {
+      "item": "dungeondelving:woven_cloth"
+    }
+  },
+  "pattern": [
+    "L L",
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "paladins:priest_robe_chest"
+  }
+}

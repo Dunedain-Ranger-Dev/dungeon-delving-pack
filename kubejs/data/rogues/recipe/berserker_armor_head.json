@@ -1,0 +1,23 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:goat_horn"
+    },
+    "I": {
+      "item": "dungeondelving:chain_links"
+    },
+    "T": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "GTG",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rogues:berserker_armor_head"
+  }
+}

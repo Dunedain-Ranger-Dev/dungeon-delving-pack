@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "dungeondelving:refined_leather"
+    },
+    "W": {
+      "item": "dungeondelving:woven_cloth"
+    }
+  },
+  "pattern": [
+    "C C",
+    "RRR",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "forcemaster_rpg:oriene_chest"
+  }
+}

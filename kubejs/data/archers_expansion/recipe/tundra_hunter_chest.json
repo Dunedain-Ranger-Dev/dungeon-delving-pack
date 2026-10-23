@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "tag": "mrpg_lib:polar_bear_fur"
+    },
+    "B": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "C": {
+      "item": "dungeondelving:hardened_leather"
+    }
+  },
+  "pattern": [
+    "A A",
+    "BAB",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "archers_expansion:tundra_hunter_chest"
+  }
+}

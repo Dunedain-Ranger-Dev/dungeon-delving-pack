@@ -1,0 +1,16 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "addition": {
+    "item": "dungeondelving:thailite_ingot"
+  },
+  "base": {
+    "item": "berserker_rpg:northling_chest"
+  },
+  "result": {
+    "count": 1,
+    "id": "berserker_rpg:netherite_northling_chest"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

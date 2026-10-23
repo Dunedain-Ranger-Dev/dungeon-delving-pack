@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "witcher_rpg:pure_silver"
+    },
+    "B": {
+      "item": "dungeondelving:wardsilver_ingot"
+    },
+    "C": {
+      "item": "dungeondelving:emberstone_ingot"
+    },
+    "D": {
+      "item": "dungeondelving:coke_infused_iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "BEB",
+    "DAD",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "witcher_rpg:wolf_school_medallion"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "template": [],
+  "base": {
+    "item": "berserker_rpg:iron_berserker_axe"
+  },
+  "addition": {
+    "item": "dungeondelving:emberstone_ingot"
+  },
+  "result": {
+    "id": "berserker_rpg:diamond_berserker_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "dungeondelving:rivets"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "W": {
+      "item": "dungeondelving:woven_cloth"
+    }
+  },
+  "pattern": [
+    "G G",
+    "WTW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "paladins:prior_robe_head"
+  }
+}

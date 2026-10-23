@@ -1,0 +1,14 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "template": [],
+  "base": {
+    "item": "forcemaster_rpg:iron_knuckle"
+  },
+  "addition": {
+    "item": "dungeondelving:emberstone_ingot"
+  },
+  "result": {
+    "id": "forcemaster_rpg:diamond_knuckle",
+    "count": 1
+  }
+}

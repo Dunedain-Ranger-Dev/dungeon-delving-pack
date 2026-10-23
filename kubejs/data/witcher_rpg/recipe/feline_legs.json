@@ -1,0 +1,21 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "dungeondelving:armor_plate"
+    },
+    "S": {
+      "item": "dungeondelving:woven_cloth"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "S S",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "witcher_rpg:feline_legs"
+  }
+}

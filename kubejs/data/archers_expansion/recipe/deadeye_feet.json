@@ -1,0 +1,23 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "dungeondelving:hardened_leather"
+    },
+    "B": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "C": {
+      "item": "dungeondelving:rivets"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "B B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "archers_expansion:deadeye_feet"
+  }
+}

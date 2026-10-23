@@ -1,0 +1,16 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "addition": {
+    "item": "dungeondelving:thailite_ingot"
+  },
+  "base": {
+    "item": "paladins:prior_robe_head"
+  },
+  "result": {
+    "count": 1,
+    "id": "paladins:netherite_prior_robe_head"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

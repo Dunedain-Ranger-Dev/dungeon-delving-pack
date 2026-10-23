@@ -1,0 +1,16 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "addition": {
+    "item": "dungeondelving:thailite_ingot"
+  },
+  "base": {
+    "item": "paladins:crusader_armor_legs"
+  },
+  "result": {
+    "count": 1,
+    "id": "paladins:netherite_crusader_armor_legs"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

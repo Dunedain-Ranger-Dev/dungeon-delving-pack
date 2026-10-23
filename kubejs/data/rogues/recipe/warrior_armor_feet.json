@@ -1,0 +1,20 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "dungeondelving:armor_plate"
+    },
+    "L": {
+      "item": "dungeondelving:refined_leather"
+    }
+  },
+  "pattern": [
+    "I I",
+    "L L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rogues:warrior_armor_feet"
+  }
+}

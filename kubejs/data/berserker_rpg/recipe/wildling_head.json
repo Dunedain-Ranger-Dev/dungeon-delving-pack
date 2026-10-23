@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "tag": "mrpg_lib:wolf_fur"
+    },
+    "W": {
+      "item": "dungeondelving:refined_leather"
+    }
+  },
+  "pattern": [
+    "R R",
+    "WRW",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "berserker_rpg:wildling_head"
+  }
+}

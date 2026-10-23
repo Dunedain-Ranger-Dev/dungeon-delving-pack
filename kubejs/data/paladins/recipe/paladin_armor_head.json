@@ -1,0 +1,20 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "I": {
+      "item": "dungeondelving:armor_plate"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "paladins:paladin_armor_head"
+  }
+}

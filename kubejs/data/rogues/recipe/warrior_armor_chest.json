@@ -1,0 +1,24 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "item": "dungeondelving:armor_plate"
+    },
+    "L": {
+      "item": "dungeondelving:refined_leather"
+    }
+  },
+  "pattern": [
+    "C C",
+    "III",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rogues:warrior_armor_chest"
+  }
+}

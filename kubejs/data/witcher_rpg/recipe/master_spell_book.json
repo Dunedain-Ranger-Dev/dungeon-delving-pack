@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "C": {
+      "item": "minecraft:book"
+    },
+    "R": {
+      "item": "dungeondelving:emberstone_ingot"
+    },
+    "W": {
+      "item": "dungeondelving:emberstone_ingot"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "BCB",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "witcher_rpg:master_spell_book"
+  }
+}

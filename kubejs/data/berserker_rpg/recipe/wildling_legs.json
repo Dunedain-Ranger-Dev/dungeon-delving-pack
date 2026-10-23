@@ -1,0 +1,24 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "tag": "mrpg_lib:wolf_fur"
+    },
+    "W": {
+      "item": "dungeondelving:refined_leather"
+    },
+    "Z": {
+      "item": "dungeondelving:chain_links"
+    }
+  },
+  "pattern": [
+    "WRW",
+    "R R",
+    "Z Z"
+  ],
+  "result": {
+    "count": 1,
+    "id": "berserker_rpg:wildling_legs"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "dungeondelving:chain_links"
+    },
+    "T": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "T T",
+    "I I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rogues:berserker_armor_feet"
+  }
+}

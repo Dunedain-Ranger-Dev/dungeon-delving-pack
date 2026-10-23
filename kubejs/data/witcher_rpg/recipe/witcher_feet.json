@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "dungeondelving:refined_leather"
+    },
+    "S": {
+      "item": "dungeondelving:hardened_leather"
+    }
+  },
+  "pattern": [
+    "S S",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "witcher_rpg:witcher_feet"
+  }
+}

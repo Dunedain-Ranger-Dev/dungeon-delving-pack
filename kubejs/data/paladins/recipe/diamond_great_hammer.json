@@ -1,0 +1,14 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "template": [],
+  "base": {
+    "item": "paladins:iron_great_hammer"
+  },
+  "addition": {
+    "item": "dungeondelving:emberstone_ingot"
+  },
+  "result": {
+    "id": "paladins:diamond_great_hammer",
+    "count": 1
+  }
+}

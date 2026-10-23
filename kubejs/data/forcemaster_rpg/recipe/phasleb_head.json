@@ -1,0 +1,23 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "dungeondelving:refined_leather"
+    },
+    "T": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "W": {
+      "item": "dungeondelving:rivets"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "WTW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "forcemaster_rpg:phasleb_head"
+  }
+}

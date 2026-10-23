@@ -1,0 +1,21 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "dungeondelving:refined_leather"
+    },
+    "M": {
+      "item": "dungeondelving:armor_plate"
+    }
+  },
+  "pattern": [
+    "MLM",
+    "MMM",
+    " M "
+  ],
+  "result": {
+    "count": 1,
+    "id": "paladins:iron_kite_shield"
+  }
+}

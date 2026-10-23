@@ -1,0 +1,20 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "dungeondelving:chain_links"
+    },
+    "L": {
+      "item": "dungeondelving:refined_leather"
+    }
+  },
+  "pattern": [
+    "C C",
+    "L L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "archers:archer_armor_feet"
+  }
+}

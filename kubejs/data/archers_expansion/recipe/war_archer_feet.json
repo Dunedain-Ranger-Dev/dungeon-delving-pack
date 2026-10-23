@@ -1,0 +1,23 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "dungeondelving:refined_leather"
+    },
+    "B": {
+      "item": "dungeondelving:chain_links"
+    },
+    "C": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "B B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "archers_expansion:war_archer_feet"
+  }
+}

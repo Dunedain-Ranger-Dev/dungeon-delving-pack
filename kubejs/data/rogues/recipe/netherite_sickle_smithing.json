@@ -1,0 +1,16 @@
+{
+  "type": "dungeondelving:starred_smithing",
+  "addition": {
+    "item": "dungeondelving:thailite_ingot"
+  },
+  "base": {
+    "item": "rogues:diamond_sickle"
+  },
+  "result": {
+    "count": 1,
+    "id": "rogues:netherite_sickle"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

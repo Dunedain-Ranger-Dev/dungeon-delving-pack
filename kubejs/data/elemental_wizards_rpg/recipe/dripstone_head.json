@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "B": {
+      "item": "dungeondelving:woven_cloth"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "   "
+  ],
+  "result": {
+    "id": "elemental_wizards_rpg:dripstone_head"
+  }
+}

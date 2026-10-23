@@ -1,0 +1,20 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "dungeondelving:refined_leather"
+    },
+    "W": {
+      "item": "dungeondelving:rivets"
+    }
+  },
+  "pattern": [
+    "W W",
+    "R R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "forcemaster_rpg:phasleb_feet"
+  }
+}
