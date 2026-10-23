@@ -17,6 +17,20 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Lootr | 1.21.1-1.11.38.127 | Loot chests are per player, so nobody misses out in multiplayer |
 | Sophisticated Backpacks | 1.21.1-3.26.12.2208 | Upgradeable backpacks for storage |
 | Sophisticated Core | 1.21.1-1.5.13.2404 | Sophisticated Backpacks library |
+| Mouse Tweaks, Inventory Essentials, Balm | 1.21-2.26.1-neoforge, 21.1.20+neoforge-1.21.1, 21.0.66+neoforge-1.21.1 | Inventory handling: drag and shift-move stacks, take-all (Balm is Inventory Essentials' library) |
+| Pufferfish's Skills | 0.19.2 | The skill trees (crafting, combat, armor, magic, class) and character levels |
+| Better Combat, Combat Roll | 2.4.0+1.21.1-neoforge, 2.0.6+1.21.1-neoforge | Weapon swings and combos, and a dodge roll |
+| Apothic Combat | 1.2.1+1.21.1 | Apotheosis affixes on Better Combat swings |
+| Better Mob Combat: Reimagined | 1.1.16 | Better Combat swings for humanoid mobs (goblins, orcs, skeletons) |
+| Wizards, Paladins & Priests, Rogues & Warriors, Archers | 3.1.3+1.21.1-neoforge | The RPG Series classes' gear and spells. Their gear is forged (tools/rpg_forging.py) |
+| Archers Expansion, Berserker, Elemental Wizards, Forcemaster, Witcher | 2.2.0, 3.2.0 (+1.21.1-neoforge) | More RPG Classes (Daedelus_dev), forged the same way |
+| Jewelry, Relics, Arsenal, Armory | 2.5.1, 1.4.0, 1.5.0, 1.5.2 (+1.21.1-neoforge) | RPG Series rings and necklaces, relics, legendary weapons and armor upgrades |
+| Spell Engine, Spell Power, Runes | 1.10.9, 1.6.0, 1.3.2 (+1.21.1-neoforge) | RPG Series magic |
+| Bundle API, Ranged Weapon API, Armor Model API, Shield API, Critical Strike, Structure Pool API, Cloth Config, More RPG Library | 1.1.0, 3.0.0, 1.1.0, 2.2.0, 1.0.4, 1.2.1, 15.0.140, 2.8.0 | RPG Series libraries |
+| Skill Tree | 1.6.1+1.21.1-neoforge | Required by the RPG Series; its own trees are turned off for ours (kubejs/data/skill_tree_rpgs) |
+| Dungeon Difficulty | 3.9.2+1.21.1-neoforge | Mob and loot scaling (to tune for multiplayer) |
+| Gazebos, Village Taverns | 2.2.0, 1.3.0 (+1.21.1-neoforge) | Village structures (taverns, gazebos) for the RPG Series |
+| Sensible Survival, Hunger Tweaks | 1.1.2+1.21.1-neoforge, 1.0.1-neoforge | Daedelus_dev survival tweaks, alongside More RPG Classes |
 
 ## In development, not in the alpha
 
@@ -28,5 +42,5 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 
 ## Planned (not in yet)
 
-Pufferfish's Skills, Better Combat, Simply Swords, L_Ender's Cataclysm, Mowzie's Mobs,
+Simply Swords, L_Ender's Cataclysm, Mowzie's Mobs,
 YUNG's Better Dungeons, Dungeons and Taverns, Ice and Fire (dragons; check for a NeoForge 1.21.1 build first).
