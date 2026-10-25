@@ -1,0 +1,14 @@
+{
+  "type": "dungeondelving:forged_smithing",
+  "template": [],
+  "base": {
+    "item": "rogues:iron_glaive"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "rogues:diamond_glaive",
+    "count": 1
+  }
+}

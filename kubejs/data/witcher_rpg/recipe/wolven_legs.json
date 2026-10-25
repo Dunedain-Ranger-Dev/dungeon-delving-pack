@@ -1,9 +1,9 @@
 {
-  "type": "dungeondelving:starred_shaped",
+  "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
     "P": {
-      "item": "dungeondelving:armor_plate"
+      "item": "dungeondelving:wardsilver_ingot"
     },
     "S": {
       "item": "dungeondelving:hardened_leather"

@@ -1,0 +1,14 @@
+{
+  "type": "dungeondelving:forged_smithing",
+  "template": [],
+  "base": {
+    "item": "forcemaster_rpg:iron_knuckle"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "forcemaster_rpg:diamond_knuckle",
+    "count": 1
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "type": "dungeondelving:starred_shaped",
+  "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
     "R": {
       "item": "dungeondelving:hardened_leather"
     },
     "W": {
-      "item": "dungeondelving:armor_plate"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [

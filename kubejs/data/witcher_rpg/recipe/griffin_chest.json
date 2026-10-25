@@ -1,15 +1,15 @@
 {
-  "type": "dungeondelving:starred_shaped",
+  "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
     "P": {
-      "item": "dungeondelving:armor_plate"
+      "item": "dungeondelving:wardsilver_ingot"
     },
     "S": {
-      "item": "dungeondelving:leather_panel"
+      "item": "minecraft:leather"
     },
     "X": {
-      "item": "dungeondelving:thraggite_ingot"
+      "item": "dungeondelving:wardsilver_ingot"
     }
   },
   "pattern": [

@@ -1,0 +1,24 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "dungeondelving:leather_panel"
+    },
+    "S": {
+      "item": "dungeondelving:hardened_leather"
+    },
+    "X": {
+      "item": "dungeondelving:thraggite_ingot"
+    }
+  },
+  "pattern": [
+    "P P",
+    "PXP",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "witcher_rpg:witcher_chest"
+  }
+}

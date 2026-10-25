@@ -1,0 +1,21 @@
+{
+  "type": "dungeondelving:starred_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "dungeondelving:armor_plate"
+    },
+    "S": {
+      "item": "dungeondelving:chain_links"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "S S",
+    "P P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "witcher_rpg:ursine_legs"
+  }
+}

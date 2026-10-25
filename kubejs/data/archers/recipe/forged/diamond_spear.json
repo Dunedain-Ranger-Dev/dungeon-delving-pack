@@ -1,0 +1,14 @@
+{
+  "type": "dungeondelving:forged_smithing",
+  "template": [],
+  "base": {
+    "item": "archers:iron_spear"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "archers:diamond_spear",
+    "count": 1
+  }
+}

@@ -1,21 +1,20 @@
-"""Writes the pack data that ties the RPG Series' gear to Dungeon Delving's forging (DD-81).
+"""Writes the pack data that ties the RPG Series' gear to Dungeon Delving's forging (DD-81, DD-89).
 
 Run from the pack repository root: python tools/rpg_forging.py
 It reads each RPG Series mod's recipes from the Gradle cache (the Dungeon Delving mod's dev setup), and writes edited
 copies under kubejs/data/<mod>/recipe/, which override the originals by ID. Run it again after updating those mods.
 
-The ladder (player-systems.md, "Keeping forging relevant"):
-- Iron gear is crafted from forged parts, so it takes their ★: iron ingots become armor plates, chain becomes chain
-  links, and gold in armor becomes rivets. Leather, wool and the RPG mods' hardened leather become our leather panels,
-  cloth panels and hardened leather, which carry the ★ of Leatherworking and Weaving (DD-88).
-- Diamond gear becomes a smithing upgrade of the iron piece with a tier 3 dungeon ingot (no template), and netherite
-  gear an upgrade of the diamond piece with a tier 4 ingot (netherite template kept). Upgrades keep the ★.
-- Gold tier weapons and shields are turned off. Wood, stone and flint stay as they are.
-- Witcher: steel swords and armor are forged like iron; the other Witcher swords are upgrades of the steel sword, and
-  each armor diagram tier takes a dungeon ingot (enhanced tier 1 up to grandmaster tier 4). Witcher metals elsewhere
-  map to dungeon ingots, and their storage recipes are turned off.
-- Every other smithing upgrade (Armory crystals and the like) keeps its inputs but keeps the ★ too.
-Bows, staves, wands and jewelry are left alone for now (DD-86 adds woodworking).
+The ladder (DD-89): every piece keeps its own recipe, and gets a forged version beside it, written as
+<mod>:forged/<path>. A forged piece is stronger by its ★, in its material's band (iron ★1-3, diamond ★4-5, netherite ★6-7):
+- Iron gear: its own shape in forged parts: iron becomes armor plates, chain becomes chain links, gold in armor becomes
+  rivets; leather, wool and hardened leather become our leather panels, cloth panels and hardened leather.
+- Diamond gear: a forged iron piece smithed with a diamond (no template), ★4 or ★5.
+- Netherite gear: its own smithing upgrade, which now carries a forged diamond piece's ★ up to ★6 or ★7 (plain stays plain).
+- Every other smithing upgrade (Armory crystals and the like) keeps its inputs and the ★.
+- Gold gear is left alone (Jewelcrafting will forge it).
+- Witcher: its metals still map to dungeon ingots (its own swords' upgrades and armor diagrams take them), and its
+  storage recipes are off; its own gear recipes use the mapped metals.
+Bows, staves, wands and jewelry are left alone for now.
 """
 import glob
 import json
@@ -114,6 +113,12 @@ def off(recipe):
     return {**recipe, "neoforge:conditions": [{"type": "neoforge:false"}]}
 
 
+def forged_upgrade(base, addition, result):
+    """A smithing upgrade that only takes a forged (starred) base, and moves it up a band."""
+    return {"type": DD + "forged_smithing", "template": [], "base": as_ingredient(base), "addition": as_ingredient(addition),
+            "result": {"id": result, "count": 1}}
+
+
 def upgrade(base, addition, result, template=None):
     return {"type": DD + "starred_smithing", "template": as_ingredient(template) if template else [],
             "base": as_ingredient(base), "addition": as_ingredient(addition), "result": {"id": result, "count": 1}}
@@ -142,58 +147,60 @@ def load():
 
 
 def rework(rid, recipe, all_ids):
-    """The edited recipe and why, or (None, reason) to leave it alone."""
+    """What to write for one recipe: a list of (recipe id, recipe), and why. Writing a recipe's own id replaces it."""
     kind = recipe.get("type")
     out = result_id(recipe) or ""
-    ns = rid.split(":")[0]
+    ns, path = rid.split(":", 1)
+    forged_id = f"{ns}:forged/{path}"
     tier = TIER_ITEM.match(out)
     if absent(recipe):
-        return None, "needs a mod the pack doesn't have"
+        return [], "needs a mod the pack doesn't have"
 
     if ns == "witcher_rpg":
         sword = re.match(r"witcher_rpg:(.+)_witcher_sword$", out)
         if sword and sword.group(1) in WITCHER_SWORDS:
-            source, t = WITCHER_SWORDS[sword.group(1)]
-            return upgrade(f"witcher_rpg:{source}_witcher_sword", TIER[t], out), f"upgrade of the {source} sword"
+            source, t_ = WITCHER_SWORDS[sword.group(1)]
+            return [(rid, upgrade(f"witcher_rpg:{source}_witcher_sword", TIER[t_], out))], f"upgrade of the {source} sword"
         diagram = key_of(recipe.get("template")) or ""
         if kind == "minecraft:smithing_transform" and diagram.startswith("witcher_rpg:") and diagram.endswith("_diagram"):
-            t = WITCHER_DIAGRAMS[diagram.split(":")[1][:-len("_diagram")]]
-            return {**recipe, "type": DD + "starred_smithing", "addition": as_ingredient(TIER[t])}, f"diagram upgrade, {t} ingot"
+            t_ = WITCHER_DIAGRAMS[diagram.split(":")[1][:-len("_diagram")]]
+            return [(rid, {**recipe, "type": DD + "starred_smithing", "addition": as_ingredient(TIER[t_])})], f"diagram upgrade, {t_} ingot"
         if kind == "minecraft:crafting_shaped" and STORAGE.search(out) and any(key_of(v) in WITCHER_METALS for v in recipe["key"].values()):
-            return off(recipe), "Witcher metal storage, unused"
+            return [(rid, off(recipe))], "Witcher metal storage, unused"
         if kind == "minecraft:crafting_shaped" and STORAGE.search(out) and out in WITCHER_METALS:
-            return off(recipe), "Witcher metal, unused"
+            return [(rid, off(recipe))], "Witcher metal, unused"
 
     if tier:
         mat, base = tier.group("mat"), f"{tier.group('ns')}:iron_{tier.group('kind')}"
         if mat == "golden":
-            return off(recipe), "gold tier is off"
+            return [], "gold, left for Jewelcrafting"
         if mat == "diamond" and kind == "minecraft:crafting_shaped":
             if base in all_ids:
-                return upgrade(base, TIER["tier3"], out), "upgrade of the iron piece"
-            return None, "diamond piece with no iron version"
+                return [(forged_id, forged_upgrade(base, "minecraft:diamond", out))], "forged: an iron piece and a diamond"
+            return [], "diamond piece with no iron version"
         if mat == "netherite" and kind == "minecraft:smithing_transform":
-            return {**recipe, "type": DD + "starred_smithing", "addition": as_ingredient(TIER["tier4"])}, "netherite upgrade, tier4 ingot"
+            return [(rid, {**recipe, "type": DD + "starred_smithing"})], "netherite upgrade carries the stars"
 
     if kind == "minecraft:smithing_transform":
-        return {**recipe, "type": DD + "starred_smithing"}, "upgrade keeps the stars"
+        return [(rid, {**recipe, "type": DD + "starred_smithing"})], "upgrade keeps the stars"
 
     if kind == "minecraft:crafting_shaped":
         armor = bool(ARMOR_SLOT.search(out))
         weapon = bool(tier) or out.startswith("witcher_rpg:") and out.endswith("_witcher_sword")
+        writes = []
+        if ns == "witcher_rpg":
+            own = {k: remap(v, WITCHER_METALS) for k, v in recipe["key"].items()}
+            if own != recipe["key"]:
+                writes.append((rid, {**recipe, "key": own}))
         if armor or weapon:
             table = {**GEAR, **(ARMOR_ONLY if armor else {})}
             keys = {k: remap(v, table) for k, v in recipe["key"].items()}
-            if keys == recipe["key"]:
-                return None, "gear with nothing to swap"
-            starred = is_starred(keys)
-            edited = {**recipe, "key": keys, "type": DD + "starred_shaped" if starred else recipe["type"]}
-            return edited, ("forged parts" if starred else "our materials, no stars yet")
-        if ns == "witcher_rpg":
-            keys = {k: remap(v, WITCHER_METALS) for k, v in recipe["key"].items()}
-            if keys != recipe["key"]:
-                return {**recipe, "key": keys}, "Witcher metals to dungeon ingots"
-    return None, "not gear"
+            if is_starred(keys):
+                return writes + [(forged_id, {**recipe, "key": keys, "type": DD + "starred_shaped"})], "forged version beside its own"
+            return writes, "gear with no forged parts"
+        if writes:
+            return writes, "Witcher metals to dungeon ingots"
+    return [], "not gear"
 
 
 def main():
@@ -207,11 +214,11 @@ def main():
         recipe = recipes[rid]
         if recipe.get("type") not in ("minecraft:crafting_shaped", "minecraft:smithing_transform"):
             continue
-        edited, why = rework(rid, recipe, ids)
+        writes, why = rework(rid, recipe, ids)
         counts[why] = counts.get(why, 0) + 1
-        report.append(f"{'*' if edited else ' '} {rid}: {why}")
-        if edited:
-            ns, path = rid.split(":", 1)
+        report.append(f"{'*' if writes else ' '} {rid}: {why}")
+        for wid, edited in writes:
+            ns, path = wid.split(":", 1)
             target = Path("kubejs/data") / ns / "recipe" / (path + ".json")
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(json.dumps(edited, indent=2) + "\n", encoding="utf-8", newline="\n")

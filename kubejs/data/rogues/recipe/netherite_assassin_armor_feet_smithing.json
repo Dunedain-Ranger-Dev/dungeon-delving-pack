@@ -1,7 +1,7 @@
 {
   "type": "dungeondelving:starred_smithing",
   "addition": {
-    "item": "dungeondelving:thailite_ingot"
+    "item": "minecraft:netherite_ingot"
   },
   "base": {
     "item": "rogues:assassin_armor_feet"

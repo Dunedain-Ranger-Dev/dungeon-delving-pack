@@ -1,0 +1,14 @@
+{
+  "type": "dungeondelving:forged_smithing",
+  "template": [],
+  "base": {
+    "item": "witcher_rpg:iron_witcher_sword"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "witcher_rpg:diamond_witcher_sword",
+    "count": 1
+  }
+}
