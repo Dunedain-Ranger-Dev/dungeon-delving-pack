@@ -5,92 +5,426 @@
   "minecraft": "1.21.1",
   "neoforge": "21.1.259",
   "mod_jar": "../dwarven-vaults/build/libs/dungeondelving-0.1.0-alpha.1.jar",
-  "modrinth": {
-    "apotheosis": "veL1ccTb",
-    "placebo": "B5zbSVlT",
-    "apothic-attributes": "64fZbLnj",
-    "apothic-enchanting": "JAQJkLJ1",
-    "apothic-spawners": "pWfxcfO2",
-    "patchouli": "BIogJv2D",
-    "irons-spells-n-spellbooks": "slKLosTb",
-    "irons-lib": "lUwUKYPl",
-    "playeranimator": "HJZB6bmA",
-    "ars-nouveau": "yWDnir1o",
-    "geckolib": "Grwn5rUB",
-    "curios": "yohfFbgD",
-    "kubejs": "THIGFPwf",
-    "rhino": "cQ4POTah",
-    "better-advanced-tooltips": "uPFbnD32",
-    "jei": "ufHUqt9b",
-    "lootr": "SPOrIzX8",
-    "sophisticated-backpacks": "QkVLEgt1",
-    "sophisticated-core": "DAcZAWzl",
-    "mouse-tweaks": "9I21YYxf",
-    "inventory-essentials": "B2gBjJSj",
-    "balm": "CquiaiDj",
-    "better-combat": "VhIOvcXP",
-    "combat-roll": "FT7t1n1a",
-    "apothic-combat": "8gwHTe22",
-    "better-mob-combat-reimagined": "EasF5aC6",
-    "spell-engine": "IYoY9AHA",
-    "spell-power": "RFCD8Aio",
-    "runes": "Br4oP4M6",
-    "bundle-api": "w5F5wdko",
-    "ranged-weapon-api": "WxNYN3Zh",
-    "armor-model-api": "QRkmKYGJ",
-    "shield-api": "fgK2cNYi",
-    "critical-strike": "2LZ76MSH",
-    "structure-pool-api": "kdWVYKdx",
-    "cloth-config": "izKINKFg",
-    "wizards": "lxbf57N2",
-    "paladins-and-priests": "7oCw7txX",
-    "rogues-and-warriors": "WxwS7HDW",
-    "archers": "7oSRQwU0",
-    "jewelry": "iLTExB6G",
-    "relics-rpg": "O6zfkTwx",
-    "arsenal-rpg-series": "rYyhslig",
-    "armory-rpg-series": "51cccxUm",
-    "skill-tree": "Vr94BeiF",
-    "skills": "8tfcI2wU",
-    "dungeon-difficulty": "uwoMCnrI",
-    "gazebos": "ktRCCPX3",
-    "village-taverns": "qhOcjQ6u",
-    "sensible-survival": "Fc9Sd9Wm",
-    "hunger-tweaks": "1fs4FiOW",
-    "more-rpg-library": "oA6DragU",
-    "archers-expansion": "GOnpQHSG",
-    "berserker-rpg-class": "val86kc4",
-    "elemental-wizards-rpg": "yciypA9F",
-    "forcemaster-rpg-class": "fyug07lZ",
-    "witcher-rpg-class": "FcCltY07",
-    "terralith": "IY93YaEe",
-    "lithostitched": "cZu4cHY3",
-    "yungs-api": "2prKITKh",
-    "yungs-menu-tweaks": "OB9hQTpQ",
-    "travelers-titles": "2y01mBUy",
-    "yungs-better-caves": "Feo6YOjN",
-    "yungs-cave-biomes": "HYGqXWqQ",
-    "yungs-better-mineshafts": "Go3nbneL",
-    "yungs-better-dungeons": "D6aZn0Em",
-    "yungs-better-strongholds": "8U0dIfSM",
-    "yungs-better-desert-temples": "GQ9iNWkI",
-    "yungs-better-jungle-temples": "P00i2hJn",
-    "yungs-better-witch-huts": "AvedwcIe",
-    "yungs-better-ocean-monuments": "yFjEcj2g",
-    "yungs-better-nether-fortresses": "iopJiJQp",
-    "yungs-better-end-island": "I52NZ1qK",
-    "yungs-bridges": "urkCzBf6",
-    "yungs-extras": "N2EpMhR7",
-    "terrablender": "6e8GCrLb",
-    "leaves-be-gone": "kAbmpvF3",
-    "puzzles-lib": "lATqZwtV",
-    "farmers-delight": "XTVZDOol",
-    "cosmetic-armor-reworked-forked": "U6kExSSz",
-    "architectury-api": "ZxYGwlk0"
-  },
-  "bundled_jars": [
-    "~/.gradle/caches/modules-2/files-2.1/dev.ftb.mods/ftb-quests-neoforge/2101.1.36/*/ftb-quests-neoforge-2101.1.36.jar",
-    "~/.gradle/caches/modules-2/files-2.1/dev.ftb.mods/ftb-library-neoforge/2101.1.37/*/ftb-library-neoforge-2101.1.37.jar",
-    "~/.gradle/caches/modules-2/files-2.1/dev.ftb.mods/ftb-teams-neoforge/2101.1.11/*/ftb-teams-neoforge-2101.1.11.jar"
-  ]
+  "curseforge": {
+    "apotheosis": {
+      "file": 8993983,
+      "file_name": "Apotheosis-1.21.1-8.9.0.jar",
+      "project": 313970
+    },
+    "placebo": {
+      "file": 9153039,
+      "file_name": "Placebo-1.21.1-9.9.4.jar",
+      "project": 283644
+    },
+    "apothic-attributes": {
+      "file": 9006294,
+      "file_name": "ApothicAttributes-1.21.1-2.11.0.jar",
+      "project": 898963
+    },
+    "apothic-enchanting": {
+      "file": 9095862,
+      "file_name": "ApothicEnchanting-1.21.1-1.6.4.jar",
+      "project": 1063926
+    },
+    "apothic-spawners": {
+      "file": 8469405,
+      "file_name": "ApothicSpawners-1.21.1-1.4.0.jar",
+      "project": 986583
+    },
+    "patchouli": {
+      "file": 7730942,
+      "file_name": "Patchouli-1.21.1-93-NEOFORGE.jar",
+      "project": 306770
+    },
+    "irons-spells-n-spellbooks": {
+      "file": 8680204,
+      "file_name": "irons_spellbooks-1.21.1-3.16.3.jar",
+      "project": 855414
+    },
+    "irons-lib": {
+      "file": 8973642,
+      "file_name": "irons_lib-1.21.1-2.2.0.jar",
+      "project": 1492763
+    },
+    "playeranimator": {
+      "file": 7389814,
+      "file_name": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+      "project": 658587
+    },
+    "ars-nouveau": {
+      "file": 9052154,
+      "file_name": "ars_nouveau-1.21.1-5.13.3.jar",
+      "project": 401955
+    },
+    "geckolib": {
+      "file": 8893490,
+      "file_name": "geckolib-neoforge-1.21.1-4.9.3.jar",
+      "project": 388172
+    },
+    "curios": {
+      "file": 6529130,
+      "file_name": "curios-neoforge-9.5.1+1.21.1.jar",
+      "project": 309927
+    },
+    "kubejs": {
+      "file": 8843626,
+      "file_name": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "project": 238086
+    },
+    "rhino": {
+      "file": 8218748,
+      "file_name": "rhino-2101.2.7-build.85.jar",
+      "project": 416294
+    },
+    "better-advanced-tooltips": {
+      "file": 8576077,
+      "file_name": "better-advanced-tooltips-2101.1.0-build.5.jar",
+      "project": 1637623
+    },
+    "jei": {
+      "file": 8792638,
+      "file_name": "jei-1.21.1-neoforge-19.51.0.418.jar",
+      "project": 238222
+    },
+    "lootr": {
+      "file": 8968561,
+      "file_name": "lootr-neoforge-1.21.1-1.11.38.127.jar",
+      "project": 361276
+    },
+    "sophisticated-backpacks": {
+      "file": 9154769,
+      "file_name": "sophisticatedbackpacks-1.21.1-3.26.12.2208.jar",
+      "project": 422301
+    },
+    "sophisticated-core": {
+      "file": 9201381,
+      "file_name": "sophisticatedcore-1.21.1-1.5.13.2404.jar",
+      "project": 618298
+    },
+    "mouse-tweaks": {
+      "file": 5637846,
+      "file_name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+      "project": 60089
+    },
+    "inventory-essentials": {
+      "file": 9035078,
+      "file_name": "inventoryessentials-neoforge-1.21.1-21.1.20.jar",
+      "project": 368825
+    },
+    "balm": {
+      "file": 8969738,
+      "file_name": "balm-neoforge-1.21.1-21.0.66.jar",
+      "project": 531761
+    },
+    "better-combat-by-daedelus": {
+      "file": 8430183,
+      "file_name": "bettercombat-neoforge-2.4.0+1.21.1.jar",
+      "project": 639842
+    },
+    "combat-roll": {
+      "file": 7348018,
+      "file_name": "combat_roll-neoforge-2.0.6+1.21.1.jar",
+      "project": 678036
+    },
+    "apothic-combat": {
+      "file": 6105085,
+      "file_name": "apothiccombat-1.2.1.jar",
+      "project": 986982
+    },
+    "better-mob-combat-reimagined": {
+      "file": 8867297,
+      "file_name": "better_mob_combat_reimagined-1.1.16.jar",
+      "project": 1606434
+    },
+    "spell-engine": {
+      "file": 9011566,
+      "file_name": "spell_engine-neoforge-1.10.9+1.21.1.jar",
+      "project": 807653
+    },
+    "spell-power": {
+      "file": 8634104,
+      "file_name": "spell_power-neoforge-1.6.0+1.21.1.jar",
+      "project": 771265
+    },
+    "rune-crafting": {
+      "file": 8702937,
+      "file_name": "runes-neoforge-1.3.2+1.21.1.jar",
+      "project": 775518
+    },
+    "bundle-api": {
+      "file": 7006149,
+      "file_name": "bundle-api-neoforge-1.1.0.jar",
+      "project": 1189983
+    },
+    "ranged-weapon-api": {
+      "file": 8723067,
+      "file_name": "ranged_weapon_api-neoforge-3.0.0+1.21.1.jar",
+      "project": 962162
+    },
+    "armor-model-api": {
+      "file": 8793923,
+      "file_name": "armor_model_api-neoforge-1.1.0+1.21.1.jar",
+      "project": 1659764
+    },
+    "shield-api": {
+      "file": 7156464,
+      "file_name": "shield_api-neoforge-2.2.0.jar",
+      "project": 1048720
+    },
+    "critical-strike": {
+      "file": 7224268,
+      "file_name": "critical_strike-neoforge-1.0.4+1.21.1.jar",
+      "project": 1379562
+    },
+    "structure-pool-api": {
+      "file": 7145227,
+      "file_name": "structure_pool_api-neoforge-1.2.1+1.21.1.jar",
+      "project": 927915
+    },
+    "cloth-config": {
+      "file": 5729127,
+      "file_name": "cloth-config-15.0.140-neoforge.jar",
+      "project": 348521
+    },
+    "wizards": {
+      "file": 8982151,
+      "file_name": "wizards-neoforge-3.1.3+1.21.1.jar",
+      "project": 734325
+    },
+    "paladins-and-priests": {
+      "file": 8982136,
+      "file_name": "paladins-neoforge-3.1.3+1.21.1.jar",
+      "project": 856548
+    },
+    "rogues-and-warriors": {
+      "file": 8982142,
+      "file_name": "rogues-neoforge-3.1.3+1.21.1.jar",
+      "project": 1048409
+    },
+    "archers": {
+      "file": 8982143,
+      "file_name": "archers-neoforge-3.1.3+1.21.1.jar",
+      "project": 932359
+    },
+    "jewelry": {
+      "file": 9002835,
+      "file_name": "jewelry-neoforge-2.5.1+1.21.1.jar",
+      "project": 910706
+    },
+    "relics-rpg": {
+      "file": 8694266,
+      "file_name": "relics-neoforge-1.4.0+1.21.1.jar",
+      "project": 1204049
+    },
+    "arsenal-rpg-series": {
+      "file": 8694625,
+      "file_name": "arsenal-neoforge-1.5.0+1.21.1.jar",
+      "project": 1230054
+    },
+    "armory-rpg-series": {
+      "file": 8787781,
+      "file_name": "armory-neoforge-1.5.2+1.21.1.jar",
+      "project": 1311561
+    },
+    "skill-tree": {
+      "file": 8982842,
+      "file_name": "skill_tree-neoforge-1.6.1+1.21.1.jar",
+      "project": 1311513
+    },
+    "puffish-skills": {
+      "file": 9101377,
+      "file_name": "puffish_skills-0.19.2-1.21-neoforge.jar",
+      "project": 835091
+    },
+    "dungeon-difficulty": {
+      "file": 9110961,
+      "file_name": "dungeon_difficulty-neoforge-3.9.2+1.21.1.jar",
+      "project": 645559
+    },
+    "gazebos": {
+      "file": 8694227,
+      "file_name": "gazebo-neoforge-2.2.0+1.21.1.jar",
+      "project": 865298
+    },
+    "village-taverns": {
+      "file": 8727899,
+      "file_name": "village_taverns-neoforge-1.3.0+1.21.1.jar",
+      "project": 1178224
+    },
+    "sensible-survival": {
+      "file": 8974842,
+      "file_name": "sensible_survival-neoforge-1.1.2+1.21.1.jar",
+      "project": 1266889
+    },
+    "hunger-tweaks": {
+      "file": 6836306,
+      "file_name": "hunger_tweaks-neoforge-1.0.1.jar",
+      "project": 1266883
+    },
+    "more-rpg-library": {
+      "file": 9129315,
+      "file_name": "mrpg-lib-neoforge-2.8.0+1.21.1.jar",
+      "project": 923030
+    },
+    "archers-expansion": {
+      "file": 9129496,
+      "file_name": "archers_expansion-neoforge-2.2.0+1.21.1.jar",
+      "project": 1109024
+    },
+    "berserker-rpg-class": {
+      "file": 9129753,
+      "file_name": "berserker_rpg-neoforge-3.2.0+1.21.1.jar",
+      "project": 991968
+    },
+    "elemental-wizards-rpg-class": {
+      "file": 9129748,
+      "file_name": "elemental_wizards_rpg-neoforge-3.2.0+1.21.1.jar",
+      "project": 1006892
+    },
+    "forcemaster-rpg-class": {
+      "file": 9129786,
+      "file_name": "forcemaster_rpg-neoforge-3.2.0+1.21.1.jar",
+      "project": 992388
+    },
+    "witcher-rpg-class": {
+      "file": 9130055,
+      "file_name": "witcher-class-mod-neoforge-3.2.0+1.21.1.jar",
+      "project": 992290
+    },
+    "terralith": {
+      "file": 8222737,
+      "file_name": "Terralith_1.21.x_v2.6.2.jar",
+      "project": 513688
+    },
+    "lithostitched": {
+      "file": 9170709,
+      "file_name": "lithostitched-1.8.1-neoforge-21.1.jar",
+      "project": 936015
+    },
+    "yungs-api-neoforge": {
+      "file": 8894736,
+      "file_name": "YungsApi-1.21.1-NeoForge-5.1.9.jar",
+      "project": 1015100
+    },
+    "yungs-menu-tweaks-neoforge": {
+      "file": 6158374,
+      "file_name": "YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar",
+      "project": 1015152
+    },
+    "travelers-titles-neoforge": {
+      "file": 6294123,
+      "file_name": "TravelersTitles-1.21.1-NeoForge-5.1.3.jar",
+      "project": 1015155
+    },
+    "yungs-better-caves": {
+      "file": 8806071,
+      "file_name": "YungsBetterCaves-1.21.1-NeoForge-3.1.6.jar",
+      "project": 340583
+    },
+    "yungs-cave-biomes": {
+      "file": 6913179,
+      "file_name": "YungsCaveBiomes-1.21.1-NeoForge-3.1.1.jar",
+      "project": 1111586
+    },
+    "yungs-better-mineshafts-neoforge": {
+      "file": 5812193,
+      "file_name": "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+      "project": 1015096
+    },
+    "yungs-better-dungeons-neoforge": {
+      "file": 5954804,
+      "file_name": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+      "project": 1015112
+    },
+    "yungs-better-strongholds-neoforge": {
+      "file": 6272264,
+      "file_name": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+      "project": 1015105
+    },
+    "yungs-better-desert-temples-neoforge": {
+      "file": 6276955,
+      "file_name": "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+      "project": 1015114
+    },
+    "yungs-better-jungle-temples-neoforge": {
+      "file": 5924482,
+      "file_name": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+      "project": 1015123
+    },
+    "yungs-better-witch-huts-neoforge": {
+      "file": 5812532,
+      "file_name": "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+      "project": 1015144
+    },
+    "yungs-better-ocean-monuments-neoforge": {
+      "file": 5924487,
+      "file_name": "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+      "project": 1015115
+    },
+    "yungs-better-nether-fortresses-neoforge": {
+      "file": 6606621,
+      "file_name": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+      "project": 1015118
+    },
+    "yungs-better-end-island-neoforge": {
+      "file": 6300968,
+      "file_name": "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+      "project": 1015127
+    },
+    "yungs-bridges-neoforge": {
+      "file": 5812553,
+      "file_name": "YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+      "project": 1015149
+    },
+    "yungs-extras-neoforge": {
+      "file": 5812546,
+      "file_name": "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+      "project": 1015146
+    },
+    "terrablender-neoforge": {
+      "file": 6054947,
+      "file_name": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+      "project": 940057
+    },
+    "leaves-be-gone": {
+      "file": 8036398,
+      "file_name": "LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
+      "project": 686435
+    },
+    "puzzles-lib": {
+      "file": 9130151,
+      "file_name": "puzzleslib-v21.1.64-mc1.21.1+neoforge.jar",
+      "project": 495476
+    },
+    "farmers-delight": {
+      "file": 8765184,
+      "file_name": "FarmersDelight-1.21.1-1.3.4.jar",
+      "project": 398521
+    },
+    "cosmetic-armor-reworked-forked": {
+      "file": 7685857,
+      "file_name": "cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar",
+      "project": 1434118
+    },
+    "architectury-api": {
+      "file": 5786327,
+      "file_name": "architectury-13.0.8-neoforge.jar",
+      "project": 419699
+    },
+    "ftb-quests-forge": {
+      "file": 8885017,
+      "file_name": "ftb-quests-neoforge-2101.1.36.jar",
+      "project": 289412
+    },
+    "ftb-library-forge": {
+      "file": 9008089,
+      "file_name": "ftb-library-neoforge-2101.1.37.jar",
+      "project": 404465
+    },
+    "ftb-teams-forge": {
+      "file": 8724782,
+      "file_name": "ftb-teams-neoforge-2101.1.11.jar",
+      "project": 404468
+    }
+  }
 }

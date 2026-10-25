@@ -1,47 +1,38 @@
-"""Builds a CurseForge app profile: dist/DungeonDelving-<version>-curseforge.zip.
+"""Builds the installable modpack: dist/DungeonDelving-<version>-curseforge.zip (the CurseForge modpack format).
 
 Run from the pack repository root: python tools/export_curseforge.py
 
-The CurseForge app imports this zip (Create Custom Profile > Import). It's the CurseForge modpack format (a
-manifest.json and an overrides/ folder), but every mod comes inside it rather than as a CurseForge project id: the
-pack's mods are pinned on Modrinth (pack.json "modrinth"), and matching them to CurseForge needs its API key. So this
-is for our own installs and testers, not for publishing on CurseForge. Use tools/export_mrpack.py for Prism Launcher or
-the Modrinth App.
-
-- Every mod in pack.json's "modrinth" list is downloaded from Modrinth (cached in dist/cache/) and checked against its
-  sha1.
-- Mods that aren't on Modrinth (pack.json "bundled_jars": FTB Quests and its libraries) come from the mod
-  repository's Gradle cache, so run a dev build there first.
+- Every mod in pack.json's "curseforge" list is in manifest.json by its CurseForge project and file id: the CurseForge
+  app downloads them itself, so the zip only carries what's ours.
 - The Dungeon Delving jar (pack.json "mod_jar", built in the mod repository with ./gradlew build) and the pack's
-  kubejs/ and config/ folders go in too.
+  kubejs/ and config/ folders go in as overrides.
+- Each mod's file is checked against CurseForge first (it must exist, and be that mod's file), through the API in
+  tools/curseforge.py.
+
+Import it in the CurseForge app: My Modpacks > Create Custom Profile > Import.
 """
-import glob
-import hashlib
 import json
-import os
 import sys
-import urllib.request
 import zipfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from export_mrpack import OVERRIDE_FOLDERS, ROOT, SKIP_NAMES, pack_file  # noqa: E402
+import curseforge  # noqa: E402
 
-CACHE = ROOT / "dist" / "cache"
+ROOT = Path(__file__).resolve().parent.parent
+OVERRIDE_FOLDERS = ["kubejs", "config"]
+SKIP_NAMES = {"README.md", ".gitkeep"}
 
 
-def download(entry):
-    """The jar for a modrinth.index.json entry, from the cache or Modrinth."""
-    path = CACHE / Path(entry["path"]).name
-    if not path.is_file() or hashlib.sha1(path.read_bytes()).hexdigest() != entry["hashes"]["sha1"]:
-        request = urllib.request.Request(entry["downloads"][0], headers={"User-Agent": "Ranger3462/dungeon-delving-pack (export_curseforge.py)"})
-        with urllib.request.urlopen(request, timeout=120) as response:
-            data = response.read()
-        if hashlib.sha1(data).hexdigest() != entry["hashes"]["sha1"]:
-            sys.exit(f"{path.name}: the download doesn't match its sha1")
-        CACHE.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(data)
-    return path
+def check(mods):
+    """Every pinned file exists on CurseForge and belongs to its project."""
+    files = curseforge.call("/mods/files", {"fileIds": [entry["file"] for entry in mods.values()]})["data"]
+    found = {f["id"]: f for f in files}
+    for slug, entry in mods.items():
+        file = found.get(entry["file"])
+        if file is None or file["modId"] != entry["project"]:
+            sys.exit(f"{slug}: file {entry['file']} isn't project {entry['project']}'s on CurseForge")
+        print(f"  {slug} {file['fileName']}")
 
 
 def main():
@@ -49,19 +40,8 @@ def main():
     mod_jar = (ROOT / pack["mod_jar"]).resolve()
     if not mod_jar.is_file():
         sys.exit(f"Dungeon Delving jar not found at {mod_jar}; run ./gradlew build in the mod repository first")
-
-    jars = []
-    for slug, version_id in pack["modrinth"].items():
-        entry, label = pack_file(slug, version_id, pack["minecraft"])
-        jars.append(download(entry))
-        print("  " + label)
-
-    for pattern in pack.get("bundled_jars", []):
-        found = sorted(glob.glob(os.path.expanduser(pattern)))
-        if not found:
-            sys.exit(f"Not found: {pattern} (run a dev build in the mod repository to fetch it)")
-        jars.append(Path(found[-1]))
-        print("  " + Path(found[-1]).name + " (bundled)")
+    mods = pack["curseforge"]
+    check(mods)
 
     manifest = {
         "minecraft": {"version": pack["minecraft"], "modLoaders": [{"id": f"neoforge-{pack['neoforge']}", "primary": True}]},
@@ -70,7 +50,7 @@ def main():
         "name": pack["name"],
         "version": pack["version"],
         "author": "Ranger3462",
-        "files": [],
+        "files": [{"projectID": entry["project"], "fileID": entry["file"], "required": True} for entry in mods.values()],
         "overrides": "overrides",
     }
 
@@ -79,13 +59,11 @@ def main():
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("manifest.json", json.dumps(manifest, indent=2))
         archive.write(mod_jar, f"overrides/mods/{mod_jar.name}")
-        for jar in jars:
-            archive.write(jar, f"overrides/mods/{jar.name}")
         for folder in OVERRIDE_FOLDERS:
             for path in sorted((ROOT / folder).rglob("*")):
                 if path.is_file() and path.name not in SKIP_NAMES:
                     archive.write(path, "overrides/" + path.relative_to(ROOT).as_posix())
-    print(f"Wrote {out.relative_to(ROOT)} ({len(jars)} mods + {mod_jar.name}, {out.stat().st_size // (1024 * 1024)} MB)")
+    print(f"Wrote {out.relative_to(ROOT)} ({len(mods)} CurseForge mods + {mod_jar.name}, {out.stat().st_size // 1024} KB)")
 
 
 if __name__ == "__main__":

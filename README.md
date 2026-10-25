@@ -27,17 +27,15 @@ Reserved. See [LICENSE.md](LICENSE.md).
 
 ## Building and installing the alpha
 
-The mod list for a release lives in `pack.json` (Modrinth version ids, plus the Dungeon Delving jar).
+The mod list for a release lives in `pack.json`: each mod's CurseForge project and file ids, plus the Dungeon Delving jar.
+The mod repository's dev runs load the same files (CurseMaven in its `build.gradle`).
 
 1. Build the mod: `./gradlew build` in the mod repository (the jar lands in `build/libs/`).
-2. Build the pack: `python tools/export_mrpack.py`. It writes `dist/DungeonDelving-<version>.mrpack`.
+2. Build the pack: `python tools/export_curseforge.py`. It writes `dist/DungeonDelving-<version>-curseforge.zip`.
 
-**For testers:** install [Prism Launcher](https://prismlauncher.org/) (or the Modrinth App), choose *Add Instance >
-Import*, and pick the `.mrpack`. The launcher downloads every mod from Modrinth and sets up NeoForge. Give it at least
-6 GB of memory. The CurseForge app can't import this format.
+**To install:** in the CurseForge app, *My Modpacks > Create Custom Profile > Import*, and pick the zip. The app downloads
+every mod from CurseForge and sets up NeoForge. Give the profile at least 6 GB of memory in its settings.
 
-**For the CurseForge app:** run `python tools/export_curseforge.py`. It writes
-`dist/DungeonDelving-<version>-curseforge.zip`, with every mod inside it (downloaded from Modrinth, so it's for our own
-installs, not for publishing on CurseForge). In the app: *My Modpacks > Create Custom Profile > Import*, pick the zip,
-and set at least 6 GB of memory in the profile's settings.
+The tools that talk to CurseForge (`tools/curseforge.py`) go through the api.curse.tools mirror, which needs no key. To use
+CurseForge's own API instead, set `CURSEFORGE_OFFICIAL=1` and a key in `CURSEFORGE_API_KEY`.
 

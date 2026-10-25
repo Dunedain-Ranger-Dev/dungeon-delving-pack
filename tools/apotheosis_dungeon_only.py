@@ -32,8 +32,9 @@ LOOT_MODIFIERS = ["affix_conversion", "affix_loot_injection", "gem_loot_injectio
 def find_jar():
     if len(sys.argv) > 1:
         return sys.argv[1]
-    cache = os.path.expanduser("~/.gradle/caches/modules-2/files-2.1/maven.modrinth/apotheosis/veL1ccTb")
-    found = glob.glob(os.path.join(cache, "*", "apotheosis-veL1ccTb.jar"))
+    # The mod repository's dev runs fetch it from CurseForge (CurseMaven): curse.maven:apotheosis-<project>:<file>.
+    cache = os.path.expanduser("~/.gradle/caches/modules-2/files-2.1/curse.maven/apotheosis-313970/8993983")
+    found = glob.glob(os.path.join(cache, "*", "apotheosis-313970-8993983.jar"))
     if not found:
         sys.exit("Apotheosis jar not found; pass its path")
     return found[0]
