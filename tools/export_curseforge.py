@@ -10,11 +10,15 @@ the Modrinth App.
 
 - Every mod in pack.json's "modrinth" list is downloaded from Modrinth (cached in dist/cache/) and checked against its
   sha1.
+- Mods that aren't on Modrinth (pack.json "bundled_jars": FTB Quests and its libraries) come from the mod
+  repository's Gradle cache, so run a dev build there first.
 - The Dungeon Delving jar (pack.json "mod_jar", built in the mod repository with ./gradlew build) and the pack's
   kubejs/ and config/ folders go in too.
 """
+import glob
 import hashlib
 import json
+import os
 import sys
 import urllib.request
 import zipfile
@@ -51,6 +55,13 @@ def main():
         entry, label = pack_file(slug, version_id, pack["minecraft"])
         jars.append(download(entry))
         print("  " + label)
+
+    for pattern in pack.get("bundled_jars", []):
+        found = sorted(glob.glob(os.path.expanduser(pattern)))
+        if not found:
+            sys.exit(f"Not found: {pattern} (run a dev build in the mod repository to fetch it)")
+        jars.append(Path(found[-1]))
+        print("  " + Path(found[-1]).name + " (bundled)")
 
     manifest = {
         "minecraft": {"version": pack["minecraft"], "modLoaders": [{"id": f"neoforge-{pack['neoforge']}", "primary": True}]},

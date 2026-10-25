@@ -85,6 +85,12 @@
     "leaves-be-gone": "kAbmpvF3",
     "puzzles-lib": "lATqZwtV",
     "farmers-delight": "XTVZDOol",
-    "cosmetic-armor-reworked-forked": "U6kExSSz"
-  }
+    "cosmetic-armor-reworked-forked": "U6kExSSz",
+    "architectury-api": "ZxYGwlk0"
+  },
+  "bundled_jars": [
+    "~/.gradle/caches/modules-2/files-2.1/dev.ftb.mods/ftb-quests-neoforge/2101.1.36/*/ftb-quests-neoforge-2101.1.36.jar",
+    "~/.gradle/caches/modules-2/files-2.1/dev.ftb.mods/ftb-library-neoforge/2101.1.37/*/ftb-library-neoforge-2101.1.37.jar",
+    "~/.gradle/caches/modules-2/files-2.1/dev.ftb.mods/ftb-teams-neoforge/2101.1.11/*/ftb-teams-neoforge-2101.1.11.jar"
+  ]
 }

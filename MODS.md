@@ -41,6 +41,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Leaves Be Gone, Puzzles Lib | v21.1.1-1.21.1-NeoForge, 21.1.64 | Leaves decay quickly once their tree is cut, so felled trees don't leave floating leaves |
 | Farmer's Delight | 1.21.1-1.3.4 | Crops and cooking; its tree bark, straw, canvas, knives and cooking pot feed the crafting professions |
 | Cosmetic Armor Reworked Forked | 1.21.1-0.0.4 | Cosmetic armor slots, so players can wear another armor's look (RPG gear, say) over forged armor |
+| Architectury API | 13.0.8+neoforge | Library: Cosmetic Armor Reworked Forked needs it (its Modrinth page doesn't say so), and FTB Quests |
 
 ## In development, not in the alpha
 
@@ -48,7 +49,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 |---|---|---|
 | Deep Mines | 0.1.0 | Our resettable mining dimension (separate repo). Loads in the mod's dev runs; not yet tested in game |
 | Custom Portal API Reforged | 1.21.1-1.2.2 | Deep Mines' portal |
-| FTB Quests (+ FTB Library, FTB Teams, Architectury API) | 2101.1.36 | Quest book. Back once there are quests; not on Modrinth, so it needs a CurseForge-aware export |
+| FTB Quests (+ FTB Library, FTB Teams) | 2101.1.36 | Quest book. Not on Modrinth: only the CurseForge export carries it (pack.json "bundled_jars", from the mod's Gradle cache) |
 
 ## Planned (not in yet)
 
