@@ -22,8 +22,8 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Better Combat, Combat Roll | 2.4.0+1.21.1-neoforge, 2.0.6+1.21.1-neoforge | Weapon swings and combos, and a dodge roll |
 | Apothic Combat | 1.2.1+1.21.1 | Apotheosis affixes on Better Combat swings |
 | Better Mob Combat: Reimagined | 1.1.16 | Better Combat swings for humanoid mobs (goblins, orcs, skeletons) |
-| Wizards, Paladins & Priests, Rogues & Warriors, Archers | 3.1.3+1.21.1-neoforge | The RPG Series classes' gear and spells. Their gear is forged (tools/rpg_forging.py) |
-| Archers Expansion, Berserker, Elemental Wizards, Forcemaster, Witcher | 2.2.0, 3.2.0 (+1.21.1-neoforge) | More RPG Classes (Daedelus_dev), forged the same way |
+| Wizards, Paladins & Priests, Rogues & Warriors, Archers | 3.1.3+1.21.1-neoforge | The RPG Series classes' gear and spells |
+| Archers Expansion, Berserker, Elemental Wizards, Forcemaster, Witcher | 2.2.0, 3.2.0 (+1.21.1-neoforge) | More RPG Classes (Daedelus_dev) |
 | Jewelry, Relics, Arsenal, Armory | 2.5.1, 1.4.0, 1.5.0, 1.5.2 (+1.21.1-neoforge) | RPG Series rings and necklaces, relics, legendary weapons and armor upgrades |
 | Spell Engine, Spell Power, Runes | 1.10.9, 1.6.0, 1.3.2 (+1.21.1-neoforge) | RPG Series magic |
 | Bundle API, Ranged Weapon API, Armor Model API, Shield API, Critical Strike, Structure Pool API, Cloth Config, More RPG Library | 1.1.0, 3.0.0, 1.1.0, 2.2.0, 1.0.4, 1.2.1, 15.0.140, 2.8.0 | RPG Series libraries |
