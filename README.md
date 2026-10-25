@@ -36,3 +36,8 @@ The mod list for a release lives in `pack.json` (Modrinth version ids, plus the 
 Import*, and pick the `.mrpack`. The launcher downloads every mod from Modrinth and sets up NeoForge. Give it at least
 6 GB of memory. The CurseForge app can't import this format.
 
+**For the CurseForge app:** run `python tools/export_curseforge.py`. It writes
+`dist/DungeonDelving-<version>-curseforge.zip`, with every mod inside it (downloaded from Modrinth, so it's for our own
+installs, not for publishing on CurseForge). In the app: *My Modpacks > Create Custom Profile > Import*, pick the zip,
+and set at least 6 GB of memory in the profile's settings.
+
