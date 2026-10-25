@@ -6,8 +6,8 @@ copies under kubejs/data/<mod>/recipe/, which override the originals by ID. Run 
 
 The ladder (player-systems.md, "Keeping forging relevant"):
 - Iron gear is crafted from forged parts, so it takes their ★: iron ingots become armor plates, chain becomes chain
-  links, and gold in armor becomes rivets. Leather, wool and the RPG mods' hardened leather become ours (refined
-  leather, woven cloth, hardened leather), which carry no ★ yet (DD-86).
+  links, and gold in armor becomes rivets. Leather, wool and the RPG mods' hardened leather become our leather panels,
+  cloth panels and hardened leather, which carry the ★ of Leatherworking and Weaving (DD-88).
 - Diamond gear becomes a smithing upgrade of the iron piece with a tier 3 dungeon ingot (no template), and netherite
   gear an upgrade of the diamond piece with a tier 4 ingot (netherite template kept). Upgrades keep the ★.
 - Gold tier weapons and shields are turned off. Wood, stone and flint stay as they are.
@@ -50,10 +50,10 @@ TIER = tiers()
 GEAR = {
     "minecraft:iron_ingot": PLATE,
     "minecraft:chain": CHAIN,
-    "minecraft:leather": DD + "refined_leather",
+    "minecraft:leather": DD + "leather_panel",
     "mrpg_lib:hardened_leather": DD + "hardened_leather",
-    "#minecraft:wool": DD + "woven_cloth",
-    "minecraft:white_wool": DD + "woven_cloth",
+    "#minecraft:wool": DD + "cloth_panel",
+    "minecraft:white_wool": DD + "cloth_panel",
     "witcher_rpg:steel_ingot": PLATE,
     "#witcher_rpg:steel_ingots": PLATE,
     # Witcher armor's main metal is forged like iron; its silver trim is the tier 1 ingot.
@@ -119,8 +119,12 @@ def upgrade(base, addition, result, template=None):
             "base": as_ingredient(base), "addition": as_ingredient(addition), "result": {"id": result, "count": 1}}
 
 
+# Parts that carry the forging or crafting ★ (DD-88: leather and cloth panels are starred now too).
+STARRED_PARTS = (PLATE, RIVETS, CHAIN, DD + "leather_panel", DD + "cloth_panel", DD + "hardened_leather", DD + "straps")
+
+
 def is_starred(keys):
-    return any(key_of(v) in (PLATE, RIVETS, CHAIN) for v in keys.values())
+    return any(key_of(v) in STARRED_PARTS for v in keys.values())
 
 
 def load():

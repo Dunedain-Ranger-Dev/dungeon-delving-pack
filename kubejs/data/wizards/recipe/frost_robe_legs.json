@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "dungeondelving:starred_shaped",
   "category": "equipment",
   "key": {
     "L": {
       "item": "minecraft:prismarine_shard"
     },
     "W": {
-      "item": "dungeondelving:woven_cloth"
+      "item": "dungeondelving:cloth_panel"
     }
   },
   "pattern": [

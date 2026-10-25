@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "dungeondelving:starred_shaped",
   "category": "equipment",
   "key": {
     "P": {
-      "item": "dungeondelving:refined_leather"
+      "item": "dungeondelving:leather_panel"
     },
     "S": {
       "item": "dungeondelving:hardened_leather"

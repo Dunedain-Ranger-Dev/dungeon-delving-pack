@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "dungeondelving:starred_shaped",
   "key": {
     "A": {
       "item": "minecraft:pointed_dripstone"
     },
     "B": {
-      "item": "dungeondelving:woven_cloth"
+      "item": "dungeondelving:cloth_panel"
     },
     "C": {
       "item": "minecraft:dripstone_block"

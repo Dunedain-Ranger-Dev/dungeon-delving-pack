@@ -26,10 +26,10 @@
   archers:quiver/large_quiver: not gear
   archers:quiver/medium_quiver: not gear
   archers:quiver/small_quiver: not gear
-* archers:ranger_armor_chest: our materials, no stars yet
-* archers:ranger_armor_feet: our materials, no stars yet
-* archers:ranger_armor_head: our materials, no stars yet
-* archers:ranger_armor_legs: our materials, no stars yet
+* archers:ranger_armor_chest: forged parts
+* archers:ranger_armor_feet: forged parts
+* archers:ranger_armor_head: forged parts
+* archers:ranger_armor_legs: forged parts
   archers:rapid_crossbow: not gear
   archers:royal_longbow: not gear
   archers:ruby_heavy_crossbow_smithing: needs a mod the pack doesn't have
@@ -37,7 +37,7 @@
   archers:ruby_spear_smithing: needs a mod the pack doesn't have
 * archers_expansion:deadeye_chest: forged parts
 * archers_expansion:deadeye_feet: forged parts
-* archers_expansion:deadeye_head: our materials, no stars yet
+* archers_expansion:deadeye_head: forged parts
 * archers_expansion:deadeye_legs: forged parts
 * archers_expansion:netherite_deadeye_netherite_deadeye_chest: netherite upgrade, tier4 ingot
 * archers_expansion:netherite_deadeye_netherite_deadeye_feet: netherite upgrade, tier4 ingot
@@ -75,7 +75,7 @@
 * archers_expansion:smithing_from_war_archer_sentinel_archer_feet: upgrade keeps the stars
 * archers_expansion:smithing_from_war_archer_sentinel_archer_head: upgrade keeps the stars
 * archers_expansion:smithing_from_war_archer_sentinel_archer_legs: upgrade keeps the stars
-* archers_expansion:tundra_hunter_chest: our materials, no stars yet
+* archers_expansion:tundra_hunter_chest: forged parts
   archers_expansion:tundra_hunter_feet: gear with nothing to swap
   archers_expansion:tundra_hunter_head: gear with nothing to swap
   archers_expansion:tundra_hunter_legs: gear with nothing to swap
@@ -227,7 +227,7 @@
 * berserker_rpg:netherite_northling_netherite_northling_legs: netherite upgrade, tier4 ingot
 * berserker_rpg:northling_chest: forged parts
 * berserker_rpg:northling_feet: forged parts
-* berserker_rpg:northling_head: our materials, no stars yet
+* berserker_rpg:northling_head: forged parts
 * berserker_rpg:northling_legs: forged parts
   berserker_rpg:ruby_berserker_axe: needs a mod the pack doesn't have
 * berserker_rpg:smithing_netherite_northling_warlord_chest: upgrade keeps the stars
@@ -241,22 +241,22 @@
   berserker_rpg:stone_berserker_axe: not gear
 * berserker_rpg:wildling_chest: forged parts
 * berserker_rpg:wildling_feet: forged parts
-* berserker_rpg:wildling_head: our materials, no stars yet
+* berserker_rpg:wildling_head: forged parts
 * berserker_rpg:wildling_legs: forged parts
   berserker_rpg:wither_berserker_axe: needs a mod the pack doesn't have
-* elemental_wizards_rpg:dripstone_chest: our materials, no stars yet
-* elemental_wizards_rpg:dripstone_feet: our materials, no stars yet
-* elemental_wizards_rpg:dripstone_head: our materials, no stars yet
-* elemental_wizards_rpg:dripstone_legs: our materials, no stars yet
-* elemental_wizards_rpg:elemental_chest: our materials, no stars yet
+* elemental_wizards_rpg:dripstone_chest: forged parts
+* elemental_wizards_rpg:dripstone_feet: forged parts
+* elemental_wizards_rpg:dripstone_head: forged parts
+* elemental_wizards_rpg:dripstone_legs: forged parts
+* elemental_wizards_rpg:elemental_chest: forged parts
   elemental_wizards_rpg:elemental_essence: not gear
-* elemental_wizards_rpg:elemental_feet: our materials, no stars yet
-* elemental_wizards_rpg:elemental_head: our materials, no stars yet
-* elemental_wizards_rpg:elemental_legs: our materials, no stars yet
-* elemental_wizards_rpg:kelp_chest: our materials, no stars yet
-* elemental_wizards_rpg:kelp_feet: our materials, no stars yet
-* elemental_wizards_rpg:kelp_head: our materials, no stars yet
-* elemental_wizards_rpg:kelp_legs: our materials, no stars yet
+* elemental_wizards_rpg:elemental_feet: forged parts
+* elemental_wizards_rpg:elemental_head: forged parts
+* elemental_wizards_rpg:elemental_legs: forged parts
+* elemental_wizards_rpg:kelp_chest: forged parts
+* elemental_wizards_rpg:kelp_feet: forged parts
+* elemental_wizards_rpg:kelp_head: forged parts
+* elemental_wizards_rpg:kelp_legs: forged parts
 * elemental_wizards_rpg:netherite_netherite_dripstone_chest: netherite upgrade, tier4 ingot
 * elemental_wizards_rpg:netherite_netherite_dripstone_feet: netherite upgrade, tier4 ingot
 * elemental_wizards_rpg:netherite_netherite_dripstone_head: netherite upgrade, tier4 ingot
@@ -313,9 +313,9 @@
   elemental_wizards_rpg:wand_terra: not gear
   elemental_wizards_rpg:wand_wind: not gear
 * elemental_wizards_rpg:wind_chest: forged parts
-* elemental_wizards_rpg:wind_feet: our materials, no stars yet
-* elemental_wizards_rpg:wind_head: our materials, no stars yet
-* elemental_wizards_rpg:wind_legs: our materials, no stars yet
+* elemental_wizards_rpg:wind_feet: forged parts
+* elemental_wizards_rpg:wind_head: forged parts
+* elemental_wizards_rpg:wind_legs: forged parts
   forcemaster_rpg:aeternium_knuckle: needs a mod the pack doesn't have
 * forcemaster_rpg:diamond_knuckle: upgrade of the iron piece
   forcemaster_rpg:elder_guardian_knuckle: needs a mod the pack doesn't have
@@ -324,10 +324,10 @@
 * forcemaster_rpg:golden_knuckle: gold tier is off
 * forcemaster_rpg:iron_knuckle: forged parts
 * forcemaster_rpg:netherite_knuckle: netherite upgrade, tier4 ingot
-* forcemaster_rpg:oriene_chest: our materials, no stars yet
-* forcemaster_rpg:oriene_feet: our materials, no stars yet
-* forcemaster_rpg:oriene_head: our materials, no stars yet
-* forcemaster_rpg:oriene_legs: our materials, no stars yet
+* forcemaster_rpg:oriene_chest: forged parts
+* forcemaster_rpg:oriene_feet: forged parts
+* forcemaster_rpg:oriene_head: forged parts
+* forcemaster_rpg:oriene_legs: forged parts
 * forcemaster_rpg:phasleb_chest: forged parts
 * forcemaster_rpg:phasleb_feet: forged parts
 * forcemaster_rpg:phasleb_head: forged parts
@@ -446,10 +446,10 @@
 * rogues:netherite_double_axe_smithing: netherite upgrade, tier4 ingot
 * rogues:netherite_glaive_smithing: netherite upgrade, tier4 ingot
 * rogues:netherite_sickle_smithing: netherite upgrade, tier4 ingot
-* rogues:rogue_armor_chest: our materials, no stars yet
-* rogues:rogue_armor_feet: our materials, no stars yet
-* rogues:rogue_armor_head: our materials, no stars yet
-* rogues:rogue_armor_legs: our materials, no stars yet
+* rogues:rogue_armor_chest: forged parts
+* rogues:rogue_armor_feet: forged parts
+* rogues:rogue_armor_head: forged parts
+* rogues:rogue_armor_legs: forged parts
   rogues:ruby_dagger_smithing: needs a mod the pack doesn't have
   rogues:ruby_double_axe_smithing: needs a mod the pack doesn't have
   rogues:ruby_glaive_smithing: needs a mod the pack doesn't have
@@ -568,27 +568,27 @@
 * witcher_rpg:ursine_feet: forged parts
 * witcher_rpg:ursine_head: forged parts
 * witcher_rpg:ursine_legs: forged parts
-* witcher_rpg:witcher_chest: our materials, no stars yet
-* witcher_rpg:witcher_feet: our materials, no stars yet
-* witcher_rpg:witcher_head: our materials, no stars yet
-* witcher_rpg:witcher_legs: our materials, no stars yet
+* witcher_rpg:witcher_chest: forged parts
+* witcher_rpg:witcher_feet: forged parts
+* witcher_rpg:witcher_head: forged parts
+* witcher_rpg:witcher_legs: forged parts
 * witcher_rpg:wolf_school_medallion: Witcher metals to dungeon ingots
 * witcher_rpg:wolven_chest: forged parts
 * witcher_rpg:wolven_feet: forged parts
 * witcher_rpg:wolven_head: forged parts
 * witcher_rpg:wolven_legs: forged parts
-* wizards:arcane_robe_chest: our materials, no stars yet
-* wizards:arcane_robe_feet: our materials, no stars yet
-* wizards:arcane_robe_head: our materials, no stars yet
-* wizards:arcane_robe_legs: our materials, no stars yet
-* wizards:fire_robe_chest: our materials, no stars yet
-* wizards:fire_robe_feet: our materials, no stars yet
-* wizards:fire_robe_head: our materials, no stars yet
-* wizards:fire_robe_legs: our materials, no stars yet
-* wizards:frost_robe_chest: our materials, no stars yet
-* wizards:frost_robe_feet: our materials, no stars yet
-* wizards:frost_robe_head: our materials, no stars yet
-* wizards:frost_robe_legs: our materials, no stars yet
+* wizards:arcane_robe_chest: forged parts
+* wizards:arcane_robe_feet: forged parts
+* wizards:arcane_robe_head: forged parts
+* wizards:arcane_robe_legs: forged parts
+* wizards:fire_robe_chest: forged parts
+* wizards:fire_robe_feet: forged parts
+* wizards:fire_robe_head: forged parts
+* wizards:fire_robe_legs: forged parts
+* wizards:frost_robe_chest: forged parts
+* wizards:frost_robe_feet: forged parts
+* wizards:frost_robe_head: forged parts
+* wizards:frost_robe_legs: forged parts
 * wizards:netherite_arcane_robe_chest_smithing: netherite upgrade, tier4 ingot
 * wizards:netherite_arcane_robe_feet_smithing: netherite upgrade, tier4 ingot
 * wizards:netherite_arcane_robe_head_smithing: netherite upgrade, tier4 ingot
@@ -618,7 +618,7 @@
 * wizards:wand_netherite_fire_smithing: upgrade keeps the stars
 * wizards:wand_netherite_frost_smithing: upgrade keeps the stars
   wizards:wand_novice: not gear
-* wizards:wizard_robe_chest: our materials, no stars yet
-* wizards:wizard_robe_feet: our materials, no stars yet
-* wizards:wizard_robe_head: our materials, no stars yet
-* wizards:wizard_robe_legs: our materials, no stars yet
+* wizards:wizard_robe_chest: forged parts
+* wizards:wizard_robe_feet: forged parts
+* wizards:wizard_robe_head: forged parts
+* wizards:wizard_robe_legs: forged parts

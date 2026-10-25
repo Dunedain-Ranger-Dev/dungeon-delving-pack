@@ -1,15 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "dungeondelving:starred_shaped",
   "category": "equipment",
   "key": {
     "C": {
       "item": "minecraft:cobblestone"
     },
     "R": {
-      "item": "dungeondelving:refined_leather"
+      "item": "dungeondelving:leather_panel"
     },
     "W": {
-      "item": "dungeondelving:woven_cloth"
+      "item": "dungeondelving:cloth_panel"
     }
   },
   "pattern": [

@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "R": {
-      "item": "dungeondelving:refined_leather"
+      "item": "dungeondelving:leather_panel"
     },
     "W": {
       "item": "dungeondelving:rivets"

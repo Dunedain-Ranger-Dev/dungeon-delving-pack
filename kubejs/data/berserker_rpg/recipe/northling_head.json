@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "dungeondelving:starred_shaped",
   "category": "equipment",
   "key": {
     "R": {
       "tag": "mrpg_lib:polar_bear_fur"
     },
     "W": {
-      "item": "dungeondelving:refined_leather"
+      "item": "dungeondelving:leather_panel"
     }
   },
   "pattern": [

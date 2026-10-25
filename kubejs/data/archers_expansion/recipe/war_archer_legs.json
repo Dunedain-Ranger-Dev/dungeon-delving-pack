@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "A": {
-      "item": "dungeondelving:refined_leather"
+      "item": "dungeondelving:leather_panel"
     },
     "B": {
       "item": "minecraft:netherite_scrap"
