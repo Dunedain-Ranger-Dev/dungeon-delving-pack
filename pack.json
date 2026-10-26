@@ -134,6 +134,11 @@
       "file_name": "dungeon_difficulty-neoforge-3.9.2+1.21.1.jar",
       "project": 645559
     },
+    "economycraft-mp": {
+      "file": 9212860,
+      "file_name": "economycraft-neoforge-1.11.0_1.21.1.jar",
+      "project": 1321557
+    },
     "elemental-wizards-rpg-class": {
       "file": 9129748,
       "file_name": "elemental_wizards_rpg-neoforge-3.2.0+1.21.1.jar",
@@ -214,20 +219,10 @@
       "file_name": "kubejs-neoforge-2101.7.2-build.377.jar",
       "project": 238086
     },
-    "lcompat": {
-      "file": 7942926,
-      "file_name": "lcompat-1.21-0.1.2a.jar",
-      "project": 1267119
-    },
     "leaves-be-gone": {
       "file": 8036398,
       "file_name": "LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
       "project": 686435
-    },
-    "lightmans-currency": {
-      "file": 9048585,
-      "file_name": "lightmanscurrency-1.21-2.3.0.6.jar",
-      "project": 472521
     },
     "lithostitched": {
       "file": 9170709,

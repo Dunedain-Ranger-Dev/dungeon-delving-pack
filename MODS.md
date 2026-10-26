@@ -42,8 +42,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Farmer's Delight | 1.21.1-1.3.4 | Crops and cooking; its tree bark, straw, canvas, knives and cooking pot feed the crafting professions |
 | Cosmetic Armor Reworked Forked | 1.21.1-0.0.4 | Cosmetic armor slots, so players can wear another armor's look (RPG gear, say) over forged armor |
 | FTB Chunks | 2101.1.22 | Land claims for players and teams (on trial; realm claims later) |
-| Lightman's Currency | 1.21-2.3.0.6 | Coins, wallets, banks and shops, for selling loot (on trial) |
-| LCompat | 1.21-0.1.2a | Lightman's Currency add-ons: buying and renting FTB Chunks land with coins |
+| EconomyCraft | 1.11.0 | Balances, a server shop for selling loot, auctions and buy orders (on trial). Dungeon Delving's coins deposit to and withdraw from its balance |
 | Villagers Reborn | 1.0.9b | Human villagers, illagers and traders, keeping their trades (on trial) |
 | Architectury API | 13.0.8+neoforge | Library: Cosmetic Armor Reworked Forked and FTB Quests need it |
 
