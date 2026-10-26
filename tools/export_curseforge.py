@@ -4,8 +4,8 @@ Run from the pack repository root: python tools/export_curseforge.py
 
 - Every mod in pack.json's "curseforge" list is in manifest.json by its CurseForge project and file id: the CurseForge
   app downloads them itself, so the zip only carries what's ours.
-- The Dungeon Delving jar (pack.json "mod_jar", built in the mod repository with ./gradlew build) and the pack's
-  kubejs/ and config/ folders go in as overrides.
+- Our own mods' jars (pack.json "mod_jars": Dungeon Delving, built in the mod repository, and Deep Mines, built in
+  deep-mines/ here, each with ./gradlew build) and the pack's kubejs/ and config/ folders go in as overrides.
 - Each mod's file is checked against CurseForge first (it must exist, and be that mod's file), through the API in
   tools/curseforge.py.
 
@@ -37,9 +37,10 @@ def check(mods):
 
 def main():
     pack = json.loads((ROOT / "pack.json").read_text(encoding="utf-8"))
-    mod_jar = (ROOT / pack["mod_jar"]).resolve()
-    if not mod_jar.is_file():
-        sys.exit(f"Dungeon Delving jar not found at {mod_jar}; run ./gradlew build in the mod repository first")
+    mod_jars = [(ROOT / jar).resolve() for jar in pack["mod_jars"]]
+    for jar in mod_jars:
+        if not jar.is_file():
+            sys.exit(f"{jar} not found; run ./gradlew build in its project first")
     mods = pack["curseforge"]
     check(mods)
 
@@ -58,12 +59,14 @@ def main():
     out.parent.mkdir(exist_ok=True)
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("manifest.json", json.dumps(manifest, indent=2))
-        archive.write(mod_jar, f"overrides/mods/{mod_jar.name}")
+        for jar in mod_jars:
+            archive.write(jar, f"overrides/mods/{jar.name}")
         for folder in OVERRIDE_FOLDERS:
             for path in sorted((ROOT / folder).rglob("*")):
                 if path.is_file() and path.name not in SKIP_NAMES:
                     archive.write(path, "overrides/" + path.relative_to(ROOT).as_posix())
-    print(f"Wrote {out.relative_to(ROOT)} ({len(mods)} CurseForge mods + {mod_jar.name}, {out.stat().st_size // 1024} KB)")
+    ours = ", ".join(jar.name for jar in mod_jars)
+    print(f"Wrote {out.relative_to(ROOT)} ({len(mods)} CurseForge mods + {ours}, {out.stat().st_size // 1024} KB)")
 
 
 if __name__ == "__main__":

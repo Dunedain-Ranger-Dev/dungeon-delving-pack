@@ -27,10 +27,11 @@ Reserved. See [LICENSE.md](LICENSE.md).
 
 ## Building and installing the alpha
 
-The mod list for a release lives in `pack.json`: each mod's CurseForge project and file ids, plus the Dungeon Delving jar.
+The mod list for a release lives in `pack.json`: each mod's CurseForge project and file ids, plus our own mods' jars
+(Dungeon Delving, and Deep Mines, whose source lives in `deep-mines/` here).
 The mod repository's dev runs load the same files (CurseMaven in its `build.gradle`).
 
-1. Build the mod: `./gradlew build` in the mod repository (the jar lands in `build/libs/`).
+1. Build our mods: `./gradlew build` in the mod repository and in `deep-mines/` (each jar lands in its `build/libs/`).
 2. Build the pack: `python tools/export_curseforge.py`. It writes `dist/DungeonDelving-<version>-curseforge.zip`.
 
 **To install:** in the CurseForge app, *My Modpacks > Create Custom Profile > Import*, and pick the zip. The app downloads

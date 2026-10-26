@@ -47,7 +47,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 
 | Mod | Version | Why |
 |---|---|---|
-| Deep Mines | 0.1.0 | Our resettable mining dimension (separate repo). Loads in the mod's dev runs; not yet tested in game |
+| Deep Mines | 0.1.0 | Our resettable mining dimension (source in `deep-mines/` here). Loads in the mod's dev runs; not yet tested in game |
 | Custom Portal API Reforged | 1.21.1-1.2.2 | Deep Mines' portal |
 | FTB Quests (+ FTB Library, FTB Teams) | 2101.1.36 | Quest book |
 
