@@ -109,6 +109,11 @@
       "file_name": "combat_roll-neoforge-2.0.6+1.21.1.jar",
       "project": 678036
     },
+    "connected-glass": {
+      "file": 6811960,
+      "file_name": "connectedglass-1.1.14-neoforge-mc1.21.jar",
+      "project": 383129
+    },
     "cosmetic-armor-reworked-forked": {
       "file": 7685857,
       "file_name": "cosmeticarmorreworkedforked-neoforge-1.21.1-0.0.4.jar",
@@ -144,15 +149,40 @@
       "file_name": "elemental_wizards_rpg-neoforge-3.2.0+1.21.1.jar",
       "project": 1006892
     },
+    "entity-model-features": {
+      "file": 9188526,
+      "file_name": "entity_model_features-3.3.12-1.21-neoforge.jar",
+      "project": 844662
+    },
+    "entity-texture-features-fabric": {
+      "file": 9188408,
+      "file_name": "entity_texture_features-7.2.6-1.21-neoforge.jar",
+      "project": 568563
+    },
+    "entityculling": {
+      "file": 9100286,
+      "file_name": "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+      "project": 448233
+    },
     "farmers-delight": {
       "file": 8765184,
       "file_name": "FarmersDelight-1.21.1-1.3.4.jar",
       "project": 398521
     },
+    "ferritecore": {
+      "file": 7524151,
+      "file_name": "ferritecore-7.0.3-neoforge.jar",
+      "project": 429235
+    },
     "forcemaster-rpg-class": {
       "file": 9129786,
       "file_name": "forcemaster_rpg-neoforge-3.2.0+1.21.1.jar",
       "project": 992388
+    },
+    "fresh-animations": {
+      "file": 9261871,
+      "file_name": "FreshAnimations_v1.11.1_1.20+.zip",
+      "project": 453763
     },
     "ftb-chunks-forge": {
       "file": 8791113,
@@ -174,6 +204,11 @@
       "file_name": "ftb-teams-neoforge-2101.1.11.jar",
       "project": 404468
     },
+    "fusion-connected-textures": {
+      "file": 9070353,
+      "file_name": "fusion-1.3.16-neoforge-mc1.21.1.jar",
+      "project": 854949
+    },
     "gazebos": {
       "file": 8694227,
       "file_name": "gazebo-neoforge-2.2.0+1.21.1.jar",
@@ -188,6 +223,11 @@
       "file": 6836306,
       "file_name": "hunger_tweaks-neoforge-1.0.1.jar",
       "project": 1266883
+    },
+    "immediatelyfast": {
+      "file": 9165518,
+      "file_name": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+      "project": 686911
     },
     "inventory-essentials": {
       "file": 9035078,
@@ -219,6 +259,11 @@
       "file_name": "kubejs-neoforge-2101.7.2-build.377.jar",
       "project": 238086
     },
+    "lanterns-bow": {
+      "file": 8915454,
+      "file_name": "walllanterns-3.3.jar",
+      "project": 596474
+    },
     "leaves-be-gone": {
       "file": 8036398,
       "file_name": "LeavesBeGone-v21.1.1-1.21.1-NeoForge.jar",
@@ -233,6 +278,11 @@
       "file": 8968561,
       "file_name": "lootr-neoforge-1.21.1-1.11.38.127.jar",
       "project": 361276
+    },
+    "modernfix": {
+      "file": 9309399,
+      "file_name": "modernfix-neoforge-5.27.27+mc1.21.1.jar",
+      "project": 790626
     },
     "more-rpg-library": {
       "file": 9129315,
@@ -314,15 +364,25 @@
       "file_name": "skill_tree-neoforge-1.6.1+1.21.1.jar",
       "project": 1311513
     },
+    "sodium": {
+      "file": 8756580,
+      "file_name": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "project": 394468
+    },
     "sophisticated-backpacks": {
       "file": 9154769,
       "file_name": "sophisticatedbackpacks-1.21.1-3.26.12.2208.jar",
       "project": 422301
     },
     "sophisticated-core": {
-      "file": 9201381,
-      "file_name": "sophisticatedcore-1.21.1-1.5.13.2404.jar",
+      "file": 9341397,
+      "file_name": "sophisticatedcore-1.21.1-1.5.19.2434.jar",
       "project": 618298
+    },
+    "sophisticated-storage": {
+      "file": 9341485,
+      "file_name": "sophisticatedstorage-1.21.1-1.6.10.2206.jar",
+      "project": 619320
     },
     "spell-engine": {
       "file": 9011566,
@@ -338,6 +398,11 @@
       "file": 7145227,
       "file_name": "structure_pool_api-neoforge-1.2.1+1.21.1.jar",
       "project": 927915
+    },
+    "supermartijn642s-core-lib": {
+      "file": 9083552,
+      "file_name": "supermartijn642corelib-1.1.25-neoforge-mc1.21.jar",
+      "project": 454372
     },
     "terrablender-neoforge": {
       "file": 6054947,
@@ -363,6 +428,11 @@
       "file": 8585406,
       "file_name": "villagersreborn-1.0.9b.jar",
       "project": 1361000
+    },
+    "waystones": {
+      "file": 8969751,
+      "file_name": "waystones-neoforge-1.21.1-21.1.46.jar",
+      "project": 245755
     },
     "witcher-rpg-class": {
       "file": 9130055,

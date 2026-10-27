@@ -16,7 +16,8 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | JEI | 19.51.0.418 | Recipe viewer |
 | Lootr | 1.21.1-1.11.38.127 | Loot chests are per player, so nobody misses out in multiplayer |
 | Sophisticated Backpacks | 1.21.1-3.26.12.2208 | Upgradeable backpacks for storage |
-| Sophisticated Core | 1.21.1-1.5.13.2404 | Sophisticated Backpacks library |
+| Sophisticated Storage | 1.21.1-1.6.10.2206 | Upgradeable chests, barrels and shulker boxes |
+| Sophisticated Core | 1.21.1-1.5.19.2434 | Sophisticated Backpacks' and Storage's library |
 | Mouse Tweaks, Inventory Essentials, Balm | 1.21-2.26.1-neoforge, 21.1.20+neoforge-1.21.1, 21.0.66+neoforge-1.21.1 | Inventory handling: drag and shift-move stacks, take-all (Balm is Inventory Essentials' library) |
 | Pufferfish's Skills | 0.19.2 | The skill trees (crafting, combat, armor, magic, class) and character levels |
 | Better Combat, Combat Roll | 2.4.0+1.21.1-neoforge, 2.0.6+1.21.1-neoforge | Weapon swings and combos, and a dodge roll |
@@ -43,6 +44,11 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Cosmetic Armor Reworked Forked | 1.21.1-0.0.4 | Cosmetic armor slots, so players can wear another armor's look (RPG gear, say) over forged armor |
 | FTB Chunks | 2101.1.22 | Land claims for players and teams (on trial; realm claims later) |
 | EconomyCraft | 1.11.0 | Balances, a server shop for selling loot, auctions and buy orders (on trial). Dungeon Delving's coins deposit to and withdraw from its balance |
+| Connected Glass, SuperMartijn642's Core Lib, Fusion | 1.1.14, 1.1.25, 1.3.16 | Glass panes and blocks join up seamlessly (the other two are its libraries) |
+| Lanterns Belong on Walls | 3.3 | Lanterns can be placed on the side of a block |
+| Waystones | 21.1.46 | Waystones to travel between (Balm is its library) |
+| Fresh Animations, Entity Model Features, Entity Texture Features | v1.11.1, 3.3.12, 7.2.6 | Livelier mob animations: Fresh Animations is a resource pack (turn it on under Resource Packs); the other two run it |
+| Sodium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling | 0.8.13, 7.0.3, 5.27.27, 1.6.15, 1.11.3 | Frame rate and memory: faster chunk and entity rendering, less memory, faster loading (on trial) |
 | Villagers Reborn | 1.0.9b | Human villagers, illagers and traders, keeping their trades (on trial) |
 | Architectury API | 13.0.8+neoforge | Library: Cosmetic Armor Reworked Forked and FTB Quests need it |
 
