@@ -49,6 +49,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 | Waystones | 21.1.46 | Waystones to travel between (Balm is its library) |
 | Fresh Animations, Entity Model Features, Entity Texture Features | v1.11.1, 3.3.12, 7.2.6 | Livelier mob animations: Fresh Animations is a resource pack (turn it on under Resource Packs); the other two run it |
 | Sodium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling | 0.8.13, 7.0.3, 5.27.27, 1.6.15, 1.11.3 | Frame rate and memory: faster chunk and entity rendering, less memory, faster loading (on trial) |
+| Vanilla Backport, Platform | 1.2.2, 1.4.2 | Newer Minecraft features on 1.21.1: the Pale Garden and the Creaking, among others (each can be turned off in its config; on trial) |
 | Villagers Reborn | 1.0.9b | Human villagers, illagers and traders, keeping their trades (on trial) |
 | Architectury API | 13.0.8+neoforge | Library: Cosmetic Armor Reworked Forked and FTB Quests need it |
 
