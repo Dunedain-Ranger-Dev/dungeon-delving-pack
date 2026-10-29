@@ -71,7 +71,6 @@ configurations {
 // Our mods, by folder next to this repository: the dependency each one's build provides.
 def ourMods = [
         'kingdom-sim'           : 'io.github.ranger3462.ddkingdom:kingdom-sim',
-        'dwarven-vaults'        : 'io.github.ranger3462.dungeondelving:dungeon-delving',
         'dungeon-delving'       : 'io.github.ranger3462.dungeondelving:dungeon-delving',
         'professions-and-skills': 'io.github.ranger3462.ddprofessions:professions-and-skills',
         'deep-mines'            : 'io.github.ranger3462.deepmines:deep-mines',

@@ -18,7 +18,7 @@ This repository holds the pack's own content, not the mods themselves:
 ## Testing in development
 
 `dev/` is a small Gradle project that plays the whole pack: our four mods built from source (their repositories checked
-out next to this one, e.g. `GitHub/dwarven-vaults`, `GitHub/professions-and-skills`, `GitHub/kingdom-sim` and
+out next to this one, e.g. `GitHub/dungeon-delving`, `GitHub/professions-and-skills`, `GitHub/kingdom-sim` and
 `GitHub/deep-mines`), every other mod at its `pack.json` version, and this repository's `kubejs/` and `config/`, copied
 into the dev game folder `dev/run/` before it starts. From `dev/`: `./gradlew runClient` to play,
 `./gradlew runGameTestServer` to run every mod's game tests with the full pack. Each mod's own repository can also run
