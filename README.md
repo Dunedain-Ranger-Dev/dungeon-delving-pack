@@ -1,7 +1,8 @@
 # Dungeon Delving (modpack)
 
-A magic-focused NeoForge 1.21.1 modpack built around the [Dungeon Delving](https://github.com/Ranger3462/dungeon-delving)
-mod: repeatable dungeon runs are the main way to progress, and the pack's magic mods are tuned around what you
+A magic-focused NeoForge 1.21.1 modpack built around the [Dungeon Delving](https://github.com/Dunedain-Ranger-Dev/dungeon-delving)
+mod and its sister mods, [Professions and Skills](https://github.com/Dunedain-Ranger-Dev/professions-and-skills),
+[Kingdom Sim](https://github.com/Dunedain-Ranger-Dev/kingdom-sim) and [Deep Mines](https://github.com/Dunedain-Ranger-Dev/deep-mines): repeatable dungeon runs are the main way to progress, and the pack's magic mods are tuned around what you
 bring back.
 
 This repository holds the pack's own content, not the mods themselves:
@@ -16,9 +17,12 @@ This repository holds the pack's own content, not the mods themselves:
 
 ## Testing in development
 
-The Dungeon Delving mod repository copies `kubejs/` and `config/` from this repository into its dev game folder
-before the test client starts, as long as both repositories sit side by side (e.g. `GitHub/dwarven-vaults` and
-`GitHub/dungeon-delving-pack`).
+`dev/` is a small Gradle project that plays the whole pack: our four mods built from source (their repositories checked
+out next to this one, e.g. `GitHub/dwarven-vaults`, `GitHub/professions-and-skills`, `GitHub/kingdom-sim` and
+`GitHub/deep-mines`), every other mod at its `pack.json` version, and this repository's `kubejs/` and `config/`, copied
+into the dev game folder `dev/run/` before it starts. From `dev/`: `./gradlew runClient` to play,
+`./gradlew runGameTestServer` to run every mod's game tests with the full pack. Each mod's own repository can also run
+on its own, with just the mods it works with.
 
 ## License
 
@@ -28,10 +32,10 @@ Reserved. See [LICENSE.md](LICENSE.md).
 ## Building and installing the alpha
 
 The mod list for a release lives in `pack.json`: each mod's CurseForge project and file ids, plus our own mods' jars
-(Dungeon Delving, and Deep Mines, whose source lives in `deep-mines/` here).
-The mod repository's dev runs load the same files (CurseMaven in its `build.gradle`).
+(Dungeon Delving, Professions and Skills, Kingdom Sim and Deep Mines, each built in its own repository next to this one).
+The dev project loads the same files (CurseMaven in `dev/build.gradle`).
 
-1. Build our mods: `./gradlew build` in the mod repository and in `deep-mines/` (each jar lands in its `build/libs/`).
+1. Build our mods: `./gradlew build` in each of our four mod repositories (each jar lands in its `build/libs/`).
 2. Build the pack: `python tools/export_curseforge.py`. It writes `dist/DungeonDelving-<version>-curseforge.zip`.
 
 **To install:** in the CurseForge app, *My Modpacks > Create Custom Profile > Import*, and pick the zip. The app downloads

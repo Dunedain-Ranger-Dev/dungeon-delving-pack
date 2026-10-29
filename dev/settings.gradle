@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+rootProject.name = 'dungeon-delving-pack-dev'
+
+// Our mods, built from their repositories checked out next to this one (missing ones are skipped). Kingdom Sim brings
+// Dungeon Delving, which brings Professions and Skills and Deep Mines.
+['kingdom-sim', 'dwarven-vaults', 'dungeon-delving', 'professions-and-skills', 'deep-mines'].each { name ->
+    if (file("../../${name}").isDirectory()) {
+        includeBuild("../../${name}")
+    }
+}

@@ -4,8 +4,8 @@ Run from the pack repository root: python tools/export_curseforge.py
 
 - Every mod in pack.json's "curseforge" list is in manifest.json by its CurseForge project and file id: the CurseForge
   app downloads them itself, so the zip only carries what's ours.
-- Our own mods' jars (pack.json "mod_jars": Dungeon Delving, built in the mod repository, and Deep Mines, built in
-  deep-mines/ here, each with ./gradlew build) and the pack's kubejs/ and config/ folders go in as overrides.
+- Our own mods' jars (pack.json "mod_jars": Dungeon Delving, Professions and Skills, Kingdom Sim and Deep Mines, each
+  built in its own repository next to this one with ./gradlew build) and the pack's kubejs/ and config/ folders go in as overrides.
 - Each mod's file is checked against CurseForge first (it must exist, and be that mod's file), through the API in
   tools/curseforge.py.
 

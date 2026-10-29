@@ -6,3 +6,8 @@ Thumbs.db
 
 # Built packs (tools/export_mrpack.py)
 dist/
+
+# The dev project (dev/): Gradle and the dev game folder
+dev/.gradle/
+dev/build/
+dev/run/

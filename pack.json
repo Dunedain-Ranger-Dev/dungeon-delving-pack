@@ -6,7 +6,9 @@
   "neoforge": "21.1.259",
   "mod_jars": [
     "../dwarven-vaults/build/libs/dungeondelving-0.1.0-alpha.1.jar",
-    "deep-mines/build/libs/deepmines-0.1.0.jar"
+    "../professions-and-skills/build/libs/ddprofessions-0.1.0-alpha.1.jar",
+    "../kingdom-sim/build/libs/ddkingdom-0.1.0-alpha.1.jar",
+    "../deep-mines/build/libs/deepmines-0.1.0.jar"
   ],
   "curseforge": {
     "apotheosis": {

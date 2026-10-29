@@ -1,10 +1,12 @@
 # Mod list
 
-NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.gradle`), pinned to CurseForge files (pack.json).
+NeoForge 1.21.1. Versions match the pack's dev project (`dev/build.gradle`), pinned to CurseForge files (pack.json).
 
 | Mod | Version | Why it's here |
 |---|---|---|
 | Dungeon Delving | 0.1.0 | The dungeon loop |
+| Professions and Skills | 0.1.0 | Skill trees, forging and the crafting professions, races, classes and ability scores |
+| Kingdom Sim | 0.1.0 | The realm: the kingdom against the monster nations, raids and town guards |
 | Apotheosis | 1.21.1-8.9.0 | Affix gear, gems, bosses (dungeon-only in this pack) |
 | Placebo, Apothic Attributes, Apothic Enchanting, Apothic Spawners | 9.9.4, 2.11.0, 1.6.4, 1.4.0 | Apotheosis libraries |
 | Patchouli | 1.21.1-93-neoforge | Guide books |
@@ -59,7 +61,7 @@ NeoForge 1.21.1. Versions match the Dungeon Delving mod's dev setup (`build.grad
 
 | Mod | Version | Why |
 |---|---|---|
-| Deep Mines | 0.1.0 | Our resettable mining dimension (source in `deep-mines/` here). Loads in the mod's dev runs; not yet tested in game |
+| Deep Mines | 0.1.0 | Our resettable mining dimension ([its own repository](https://github.com/Dunedain-Ranger-Dev/deep-mines)). Loads in the dev project; not yet tested in game |
 | Custom Portal API Reforged | 1.21.1-1.2.2 | Deep Mines' portal |
 | FTB Quests (+ FTB Library, FTB Teams) | 2101.1.36 | Quest book |
 
