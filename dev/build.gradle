@@ -206,6 +206,8 @@ dependencies {
         localRuntime "curse.maven:platform-997634:9318519"                   // 1.4.2, its library
         // Food and saturation on the hunger bar (on trial)
         localRuntime "curse.maven:appleskin-248787:7854442"                  // 3.0.9
+        // Health bars over mobs (on trial)
+        localRuntime "curse.maven:neat-238372:7774002"                       // 1.21-47
         // Kobold models and textures, which our kobolds use when it is installed
         localRuntime "curse.maven:kobolds-484967:9257299"                    // 4.0.2
 }
