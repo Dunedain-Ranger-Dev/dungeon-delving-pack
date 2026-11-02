@@ -54,6 +54,9 @@ NeoForge 1.21.1. Versions match the pack's dev project (`dev/build.gradle`), pin
 | Kobolds! | 4.0.2 | Its kobold model and skins dress Dungeon Delving's kobolds (MIT). Its own dens and zombie kobolds are switched off by Dungeon Delving |
 | AppleSkin | 3.0.9 | Shows food and saturation on the hunger bar (the gold outline is saturation, which heals first) and what a food will restore (on trial) |
 | Neat | 1.21-47 | Health bars over mobs, so players can see how much damage they're doing (on trial) |
+| Ice and Fire: Community Edition | 2.1.4 | Dragons and mythical creatures: dragons, sea serpents, trolls, cyclopes, gorgons and more, with their dens and gear (LGPL; on trial) |
+| Jupiter, Uranus | 2.3.7, 2.4.1-bugfix | Ice and Fire's libraries |
+| Ice and Fire Dragons X Better Combat | 1.21.1 | Better Combat swings for Ice and Fire's odd weapons: the amphithere macuahuitl, hippocampus slapper and troll weapons (MIT) |
 | Vanilla Backport, Platform | 1.2.2, 1.4.2 | Newer Minecraft features on 1.21.1: the Pale Garden and the Creaking, among others (each can be turned off in its config; on trial) |
 | Villagers Reborn | 1.0.9b | Human villagers, illagers and traders, keeping their trades (on trial) |
 | Architectury API | 13.0.8+neoforge | Library: Cosmetic Armor Reworked Forked and FTB Quests need it |
