@@ -216,6 +216,11 @@ dependencies {
         localRuntime "curse.maven:jupiter-1072905:7738312"                   // 2.3.7
         localRuntime "curse.maven:uranus-1010827:8587525"                    // 2.4.1-bugfix
         localRuntime "curse.maven:ice-and-fire-dragons-x-better-combat-1105606:6778934" // 1.21.1
+        // Mowzie's Mobs: boss-like creatures (on trial)
+        localRuntime "curse.maven:mowzies-mobs-250498:7760267"               // 1.8.2
+        // Goblin Traders, with Framework, its library (on trial)
+        localRuntime "curse.maven:goblin-traders-363703:6427515"             // 1.11.2
+        localRuntime "curse.maven:framework-549225:7530361"                  // 0.13.11
         // Kobold models and textures, which our kobolds use when it is installed
         localRuntime "curse.maven:kobolds-484967:9257299"                    // 4.0.2
 }

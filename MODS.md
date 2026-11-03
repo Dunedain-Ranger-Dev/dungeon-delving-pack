@@ -57,6 +57,8 @@ NeoForge 1.21.1. Versions match the pack's dev project (`dev/build.gradle`), pin
 | LambDynamicLights, Beltborne Lanterns | 4.8.11, 1.2.5 | Light: a torch or lantern held in either hand lights up the area around you, and B hangs a held lantern on your belt, where it keeps lighting the way (on trial) |
 | Ice and Fire: Community Edition | 2.1.4 | Dragons and mythical creatures: dragons, sea serpents, trolls, cyclopes, gorgons and more, with their dens and gear (LGPL; on trial) |
 | Jupiter, Uranus | 2.3.7, 2.4.1-bugfix | Ice and Fire's libraries |
+| Mowzie's Mobs | 1.8.2 | Boss-like creatures: the Ferrous Wroughtnaut, Frostmaw, Umvuthi and his Umvuthana tribe, nagas, foliaaths and more (on trial) |
+| Goblin Traders, Framework | 1.11.2, 0.13.11 (beta: its only 1.21.1 builds) | Goblin traders that turn up underground and in the Nether with odd trades (on trial); Framework is its library |
 | Ice and Fire Dragons X Better Combat | 1.21.1 | Better Combat swings for Ice and Fire's odd weapons: the amphithere macuahuitl, hippocampus slapper and troll weapons (MIT) |
 | Vanilla Backport, Platform | 1.2.2, 1.4.2 | Newer Minecraft features on 1.21.1: the Pale Garden and the Creaking, among others (each can be turned off in its config; on trial) |
 | Villagers Reborn | 1.0.9b | Human villagers, illagers and traders, keeping their trades (on trial) |
@@ -72,5 +74,4 @@ NeoForge 1.21.1. Versions match the pack's dev project (`dev/build.gradle`), pin
 
 ## Planned (not in yet)
 
-Simply Swords, L_Ender's Cataclysm, Mowzie's Mobs,
-Dungeons and Taverns, Ice and Fire (dragons; check for a NeoForge 1.21.1 build first).
+Simply Swords, L_Ender's Cataclysm, Dungeons and Taverns.

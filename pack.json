@@ -191,6 +191,11 @@
       "file_name": "forcemaster_rpg-neoforge-3.2.0+1.21.1.jar",
       "project": 992388
     },
+    "framework": {
+      "file": 7530361,
+      "file_name": "framework-neoforge-1.21.1-0.13.11.jar",
+      "project": 549225
+    },
     "fresh-animations": {
       "file": 9261871,
       "file_name": "FreshAnimations_v1.11.1_1.20+.zip",
@@ -230,6 +235,11 @@
       "file": 8893490,
       "file_name": "geckolib-neoforge-1.21.1-4.9.3.jar",
       "project": 388172
+    },
+    "goblin-traders": {
+      "file": 6427515,
+      "file_name": "goblintraders-neoforge-1.21.1-1.11.2.jar",
+      "project": 363703
     },
     "hunger-tweaks": {
       "file": 6836306,
@@ -330,6 +340,11 @@
       "file": 5637846,
       "file_name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
       "project": 60089
+    },
+    "mowzies-mobs": {
+      "file": 7760267,
+      "file_name": "mowziesmobs-1.21.1-1.8.2.jar",
+      "project": 250498
     },
     "neat": {
       "file": 7774002,
