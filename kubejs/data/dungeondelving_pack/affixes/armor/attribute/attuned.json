@@ -1,0 +1,44 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+  "categories": [
+    "apotheosis:chestplate",
+    "apotheosis:leggings"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "quality": 0.1,
+      "weight": 25
+    }
+  },
+  "operation": "add_value",
+  "values": {
+    "apotheosis:common": {
+      "min": 25,
+      "max": 50,
+      "step": 5
+    },
+    "apotheosis:uncommon": {
+      "min": 25,
+      "max": 50,
+      "step": 5
+    },
+    "apotheosis:rare": {
+      "min": 50,
+      "max": 100,
+      "step": 5
+    },
+    "apotheosis:epic": {
+      "min": 75,
+      "max": 125,
+      "step": 5
+    },
+    "apotheosis:mythic": {
+      "min": 100,
+      "max": 200,
+      "step": 5
+    }
+  }
+}

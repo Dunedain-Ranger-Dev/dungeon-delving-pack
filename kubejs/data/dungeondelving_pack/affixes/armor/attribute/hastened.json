@@ -1,0 +1,30 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "irons_spellbooks:cooldown_reduction",
+  "categories": [
+    "apotheosis:helmet"
+  ],
+  "definition": {
+    "affix_type": "stat",
+    "exclusive_set": [],
+    "weights": {
+      "quality": 0.1,
+      "weight": 25
+    }
+  },
+  "operation": "add_multiplied_base",
+  "values": {
+    "apotheosis:rare": {
+      "min": 0.03,
+      "max": 0.08
+    },
+    "apotheosis:epic": {
+      "min": 0.05,
+      "max": 0.1
+    },
+    "apotheosis:mythic": {
+      "min": 0.08,
+      "max": 0.15
+    }
+  }
+}

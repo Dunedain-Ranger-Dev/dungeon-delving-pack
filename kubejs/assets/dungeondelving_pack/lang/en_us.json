@@ -1,0 +1,18 @@
+{
+  "affix.dungeondelving_pack:armor/attribute/arcane": "Arcane",
+  "affix.dungeondelving_pack:armor/attribute/arcane.suffix": "of the Archmage",
+  "affix.dungeondelving_pack:armor/attribute/mana_woven": "Mana-Woven",
+  "affix.dungeondelving_pack:armor/attribute/mana_woven.suffix": "of the Deep Well",
+  "affix.dungeondelving_pack:armor/attribute/flowing": "Flowing",
+  "affix.dungeondelving_pack:armor/attribute/flowing.suffix": "of the Spring",
+  "affix.dungeondelving_pack:armor/attribute/hastened": "Hastened",
+  "affix.dungeondelving_pack:armor/attribute/hastened.suffix": "of Quick Recall",
+  "affix.dungeondelving_pack:armor/attribute/quickened": "Quickened",
+  "affix.dungeondelving_pack:armor/attribute/quickened.suffix": "of Swift Words",
+  "affix.dungeondelving_pack:armor/attribute/spellwarded": "Spellwarded",
+  "affix.dungeondelving_pack:armor/attribute/spellwarded.suffix": "of the Null Ward",
+  "affix.dungeondelving_pack:armor/attribute/attuned": "Attuned",
+  "affix.dungeondelving_pack:armor/attribute/attuned.suffix": "of the Source",
+  "affix.dungeondelving_pack:armor/attribute/empowered": "Empowered",
+  "affix.dungeondelving_pack:armor/attribute/empowered.suffix": "of the Glyphwright"
+}
