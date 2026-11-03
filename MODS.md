@@ -54,6 +54,7 @@ NeoForge 1.21.1. Versions match the pack's dev project (`dev/build.gradle`), pin
 | Kobolds! | 4.0.2 | Its kobold model and skins dress Dungeon Delving's kobolds (MIT). Its own dens and zombie kobolds are switched off by Dungeon Delving |
 | AppleSkin | 3.0.9 | Shows food and saturation on the hunger bar (the gold outline is saturation, which heals first) and what a food will restore (on trial) |
 | Neat | 1.21-47 | Health bars over mobs, so players can see how much damage they're doing (on trial) |
+| LambDynamicLights, Beltborne Lanterns | 4.8.11, 1.2.5 | Light: a torch or lantern held in either hand lights up the area around you, and B hangs a held lantern on your belt, where it keeps lighting the way (on trial) |
 | Ice and Fire: Community Edition | 2.1.4 | Dragons and mythical creatures: dragons, sea serpents, trolls, cyclopes, gorgons and more, with their dens and gear (LGPL; on trial) |
 | Jupiter, Uranus | 2.3.7, 2.4.1-bugfix | Ice and Fire's libraries |
 | Ice and Fire Dragons X Better Combat | 1.21.1 | Better Combat swings for Ice and Fire's odd weapons: the amphithere macuahuitl, hippocampus slapper and troll weapons (MIT) |

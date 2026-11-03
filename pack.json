@@ -81,6 +81,11 @@
       "file_name": "balm-neoforge-1.21.1-21.0.66.jar",
       "project": 531761
     },
+    "beltborne-lanterns": {
+      "file": 7763532,
+      "file_name": "beltborne_lanterns-1.2.5-neoforge+1.21.1.jar",
+      "project": 1337474
+    },
     "berserker-rpg-class": {
       "file": 9129753,
       "file_name": "berserker_rpg-neoforge-3.2.0+1.21.1.jar",
@@ -285,6 +290,11 @@
       "file": 8843626,
       "file_name": "kubejs-neoforge-2101.7.2-build.377.jar",
       "project": 238086
+    },
+    "lambdynamiclights": {
+      "file": 8780227,
+      "file_name": "lambdynamiclights-4.8.11+1.21.1.jar",
+      "project": 393442
     },
     "lanterns-bow": {
       "file": 8915454,
