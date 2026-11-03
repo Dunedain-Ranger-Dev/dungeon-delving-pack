@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "deepmines:mines",
+  "features": [
+    "iceandfire:silver_ore",
+    "iceandfire:sapphire_ore"
+  ],
+  "step": "underground_ores"
+}
