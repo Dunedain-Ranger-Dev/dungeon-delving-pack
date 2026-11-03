@@ -208,6 +208,9 @@ dependencies {
         localRuntime "curse.maven:appleskin-248787:7854442"                  // 3.0.9
         // Health bars over mobs (on trial)
         localRuntime "curse.maven:neat-238372:7774002"                       // 1.21-47
+        // Light: held and worn light sources light up the area around you, and lanterns go on the belt (on trial)
+        localRuntime "curse.maven:lambdynamiclights-393442:8780227"          // 4.8.11+1.21.1
+        localRuntime "curse.maven:beltborne-lanterns-1337474:7763532"        // 1.2.5
         // Ice and Fire: dragons and mythical creatures, with its libraries and Better Combat weapon attributes (on trial)
         localRuntime "curse.maven:iceandfire-ce-1040076:9128508"             // 2.1.4
         localRuntime "curse.maven:jupiter-1072905:7738312"                   // 2.3.7
