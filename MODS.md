@@ -62,7 +62,9 @@ NeoForge 1.21.1. Versions match the pack's dev project (`dev/build.gradle`), pin
 | Ice and Fire Dragons X Better Combat | 1.21.1 | Better Combat swings for Ice and Fire's odd weapons: the amphithere macuahuitl, hippocampus slapper and troll weapons (MIT) |
 | Vanilla Backport, Platform | 1.2.2, 1.4.2 | Newer Minecraft features on 1.21.1: the Pale Garden and the Creaking, among others (each can be turned off in its config; on trial) |
 | Villagers Reborn | 1.0.9b | Human villagers, illagers and traders, keeping their trades (on trial) |
-| Architectury API | 13.0.8+neoforge | Library: Cosmetic Armor Reworked Forked and FTB Quests need it |
+| Critters and Companions | 2.7.0 | Small animals to find and tame: ferrets, red pandas, stag beetles, jumping spiders and more. Its tames count for Beastmastery, wear collars and fight for their owner (on trial) |
+| Architectury API | 13.0.11+neoforge | Library: Cosmetic Armor Reworked Forked, FTB Quests and Critters and Companions need it |
+| YetAnotherConfigLib | 3.8.2+1.21.1 | Library: Critters and Companions' settings (it needs it on servers too, though it says client only) |
 
 ## In development, not in the alpha
 
