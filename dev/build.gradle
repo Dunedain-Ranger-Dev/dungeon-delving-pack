@@ -105,7 +105,7 @@ dependencies {
         localRuntime "curse.maven:ftb-quests-forge-289412:8885017"
         localRuntime "curse.maven:ftb-library-forge-404465:9008089"
         localRuntime "curse.maven:ftb-teams-forge-404468:8724782"
-        localRuntime "curse.maven:architectury-api-419699:5786327"
+        localRuntime "curse.maven:architectury-api-419699:8492726"            // 13.0.11: Critters and Companions needs it
         // FTB Chunks, whose map shows the realm's places as waypoints
         localRuntime "curse.maven:ftb-chunks-forge-314906:8791113"     // 2101.1.22
         // Lootr, so world loot chests are per player
@@ -223,6 +223,9 @@ dependencies {
         localRuntime "curse.maven:framework-549225:7530361"                  // 0.13.11
         // Kobold models and textures, which our kobolds use when it is installed
         localRuntime "curse.maven:kobolds-484967:9257299"                    // 4.0.2
+        // Critters and Companions: small animals, some of them tames that count for Beastmastery (PROF-6)
+        localRuntime "curse.maven:critters-and-companions-574913:8646976"    // 2.7.0
+        localRuntime "curse.maven:yacl-667299:7437845"                       // 3.8.2, its config library (needed on servers too)
 }
 
 // Copies the pack's KubeJS scripts and config overrides into the dev game folder, so it plays with the pack's changes.
