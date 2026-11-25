@@ -31,11 +31,10 @@ DUNGEON_ONLY = [
     "magic_cloth",
     "cinder_essence",
     "mithril_scrap",
-    "raw_mithril",
-    "mithril_ore",
-    "deepslate_mithril_ore",
     "rotten_spell_book",
 ]
+# Mithril ore and raw mithril aren't on the list: with no overworld ore, the only other place to mine them is Deep
+# Mines (from floor 6), and what's mined there is kept.
 
 
 def write(path, obj):
